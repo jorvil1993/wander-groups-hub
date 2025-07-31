@@ -6,6 +6,12 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Users, Target, Lightbulb, Heart, Phone, Mail, MessageCircle } from "lucide-react";
 
+// Import team images
+import teamBuildingForest from "@/assets/team-building-forest.jpg";
+import teamProductivityForest from "@/assets/team-productivity-forest.jpg";
+import teamInnovationForest from "@/assets/team-innovation-forest.jpg";
+import teamWellnessForest from "@/assets/team-wellness-forest.jpg";
+
 const Grupos = () => {
   const locations = [
     {
@@ -84,22 +90,22 @@ const Grupos = () => {
 
   const benefits = [
     {
-      icon: <Users className="h-12 w-12 text-forest" />,
+      image: teamBuildingForest,
       title: "Fortalecimiento del Equipo",
       description: "Actividades diseñadas para mejorar la comunicación y cohesión del equipo en un ambiente relajado."
     },
     {
-      icon: <Target className="h-12 w-12 text-forest" />,
+      image: teamProductivityForest,
       title: "Productividad Mejorada",
       description: "Espacios inspiradores que fomentan la creatividad y el pensamiento estratégico fuera de la oficina."
     },
     {
-      icon: <Lightbulb className="h-12 w-12 text-forest" />,
+      image: teamInnovationForest,
       title: "Innovación y Creatividad",
       description: "El contacto con la naturaleza estimula nuevas ideas y soluciones innovadoras para tu empresa."
     },
     {
-      icon: <Heart className="h-12 w-12 text-forest" />,
+      image: teamWellnessForest,
       title: "Bienestar del Equipo",
       description: "Reduce el estrés y mejora el bienestar mental de tu equipo con experiencias en la naturaleza."
     }
@@ -126,8 +132,12 @@ const Grupos = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
               <Card key={index} className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
-                <div className="flex justify-center mb-4">
-                  {benefit.icon}
+                <div className="mb-4 overflow-hidden rounded-lg">
+                  <img 
+                    src={benefit.image} 
+                    alt={benefit.title}
+                    className="w-full h-40 object-cover transition-transform duration-300 hover:scale-105"
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-primary mb-3">{benefit.title}</h3>
                 <p className="text-muted-foreground leading-relaxed">{benefit.description}</p>
