@@ -121,7 +121,7 @@ const Grupos = () => {
       <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-oswald font-normal mb-6 uppercase mx-2.5" style={{ letterSpacing: '0.5px', color: '#818C78' }}>
+            <h2 className="text-4xl md:text-5xl font-oswald font-normal mb-6 uppercase mx-2.5" style={{ letterSpacing: '0.5px', color: '#818C70' }}>
               ¿Por qué elegir Wander para tu equipo?
             </h2>
             <p className="text-xl text-foreground max-w-3xl mx-auto">
