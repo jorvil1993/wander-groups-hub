@@ -24,12 +24,13 @@ const HeroSection = () => {
           rodeadas de naturaleza. Espacios diseñados para inspirar creatividad y colaboración.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Button size="lg" className="bg-orange hover:bg-orange/90 text-orange-foreground font-semibold px-8 py-3">
-            RESERVAR PARA GRUPO
-          </Button>
-          <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-3">
-            VER PAQUETES CORPORATIVOS
+        <div className="flex justify-center mb-12">
+          <Button 
+            size="lg" 
+            className="bg-orange hover:bg-orange/90 text-orange-foreground font-semibold px-8 py-3"
+            onClick={() => window.open('https://calendly.com/gerardo-wandercabins/30min', '_blank')}
+          >
+            SOLICITAR COTIZACIÓN
           </Button>
         </div>
 
