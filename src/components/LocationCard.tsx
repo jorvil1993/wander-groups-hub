@@ -52,12 +52,18 @@ const LocationCard = ({ title, location, image, capacity, features, description,
           ))}
         </div>
         
-        <div className="flex gap-3">
-          <Button className="flex-1 bg-forest hover:bg-forest/90 text-forest-foreground">
-            Ver Disponibilidad
+        <div className="grid grid-cols-2 gap-2">
+          <Button className="text-sm">
+            SOBRE NOSOTROS
           </Button>
-          <Button variant="outline" className="border-forest text-forest hover:bg-forest hover:text-forest-foreground">
-            Cotizar
+          <Button className="text-sm">
+            NUESTRAS CABAÑAS
+          </Button>
+          <Button className="text-sm">
+            NUESTRAS EXPERIENCIAS
+          </Button>
+          <Button className="text-sm">
+            NUESTROS PRECIOS
           </Button>
         </div>
       </div>
