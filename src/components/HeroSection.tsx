@@ -14,7 +14,7 @@ const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 pt-20">
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight">
           EXPERIENCIAS ÚNICAS PARA 
           <span className="block text-warm-beige">GRUPOS EMPRESARIALES</span>
         </h1>

@@ -130,7 +130,7 @@ const Grupos = () => {
             </p>
           </div>
 
-          <div className="flex justify-center">
+          <div className="flex justify-center px-4">
             <div className="w-full max-w-5xl">
               <Carousel 
                 opts={{
@@ -139,30 +139,30 @@ const Grupos = () => {
                 }}
                 className="relative"
               >
-                <CarouselContent className="-ml-2 md:-ml-4">
+                <CarouselContent className="-ml-1 md:-ml-4">
                   {benefits.map((benefit, index) => (
-                    <CarouselItem key={index} className="pl-2 md:pl-4">
-                      <Card className="mx-auto max-w-2xl overflow-hidden bg-gradient-to-br from-background to-muted/30 shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2">
+                    <CarouselItem key={index} className="pl-1 md:pl-4 basis-full">
+                      <Card className="mx-auto max-w-2xl overflow-hidden bg-gradient-to-br from-background to-muted/30 shadow-xl md:shadow-2xl hover:shadow-2xl md:hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-1 md:hover:-translate-y-2">
                         <div className="relative">
-                          <div className="aspect-[16/9] overflow-hidden">
+                          <div className="aspect-[4/3] md:aspect-[16/9] overflow-hidden">
                             <img 
                               src={benefit.image} 
                               alt={benefit.title}
-                              className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+                              className="w-full h-full object-cover transition-transform duration-700 hover:scale-105 md:hover:scale-110"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                           </div>
-                          <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
-                            <h3 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">{benefit.title}</h3>
-                            <p className="text-lg md:text-xl leading-relaxed text-white/90">{benefit.description}</p>
+                          <div className="absolute bottom-0 left-0 right-0 p-4 md:p-8 text-white">
+                            <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 tracking-tight">{benefit.title}</h3>
+                            <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-white/90">{benefit.description}</p>
                           </div>
                         </div>
                       </Card>
                     </CarouselItem>
                   ))}
                 </CarouselContent>
-                <CarouselPrevious className="left-4 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest shadow-lg" />
-                <CarouselNext className="right-4 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest shadow-lg" />
+                <CarouselPrevious className="left-2 md:left-4 h-8 w-8 md:h-10 md:w-10 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest shadow-lg" />
+                <CarouselNext className="right-2 md:right-4 h-8 w-8 md:h-10 md:w-10 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest shadow-lg" />
               </Carousel>
             </div>
           </div>
