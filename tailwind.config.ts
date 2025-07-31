@@ -75,7 +75,9 @@ export default {
 					foreground: 'hsl(var(--warm-beige-foreground))'
 				}
 			},
-			borderRadius: {
+      fontFamily: {
+        'oswald': ['Oswald', 'sans-serif'],
+      },
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
