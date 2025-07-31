@@ -17,7 +17,7 @@ const Grupos = () => {
   const locations = [
     {
       title: "Valle de Bravo",
-      location: "Estado de México",
+      location: "2 horas desde CDMX",
       image: "/lovable-uploads/def6e8e6-a5b0-4008-9109-de65ea8474af.png",
       capacity: "5-40 personas",
       features: ["WiFi", "Cocina", "Jacuzzi", "Fogata", "Vista al lago"],
