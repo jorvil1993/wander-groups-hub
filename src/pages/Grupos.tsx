@@ -161,8 +161,8 @@ const Grupos = () => {
                     </CarouselItem>
                   ))}
                 </CarouselContent>
-                <CarouselPrevious className="hidden md:block left-2 md:left-4 h-8 w-8 md:h-10 md:w-10 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest shadow-lg" />
-                <CarouselNext className="hidden md:block right-2 md:right-4 h-8 w-8 md:h-10 md:w-10 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest shadow-lg" />
+                <CarouselPrevious className="hidden md:block md:left-4 md:h-10 md:w-10 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest shadow-lg" />
+                <CarouselNext className="hidden md:block md:right-4 md:h-10 md:w-10 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest shadow-lg" />
               </Carousel>
             </div>
           </div>
