@@ -43,6 +43,10 @@ All colors MUST be HSL.
     --warm-beige: 47 42% 85%;
     --warm-beige-foreground: 25 25% 12%;
 
+    /* Orange accent color */
+    --orange: 25 85% 60%;
+    --orange-foreground: 0 0% 100%;
+
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
@@ -99,6 +103,9 @@ All colors MUST be HSL.
     
     --warm-beige: 47 25% 75%;
     --warm-beige-foreground: 25 25% 12%;
+
+    --orange: 25 85% 60%;
+    --orange-foreground: 0 0% 100%;
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;

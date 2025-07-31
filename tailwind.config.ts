@@ -73,6 +73,10 @@ export default {
 				'warm-beige': {
 					DEFAULT: 'hsl(var(--warm-beige))',
 					foreground: 'hsl(var(--warm-beige-foreground))'
+				},
+				orange: {
+					DEFAULT: 'hsl(var(--orange))',
+					foreground: 'hsl(var(--orange-foreground))'
 				}
 			},
 			fontFamily: {
