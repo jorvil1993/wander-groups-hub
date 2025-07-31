@@ -61,6 +61,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				forest: {
+					DEFAULT: 'hsl(var(--forest))',
+					foreground: 'hsl(var(--forest-foreground))'
+				},
+				earth: {
+					DEFAULT: 'hsl(var(--earth))',
+					foreground: 'hsl(var(--earth-foreground))'
+				},
+				'warm-beige': {
+					DEFAULT: 'hsl(var(--warm-beige))',
+					foreground: 'hsl(var(--warm-beige-foreground))'
 				}
 			},
 			borderRadius: {
