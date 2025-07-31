@@ -4,6 +4,7 @@ import LocationCard from "@/components/LocationCard";
 import CorporatePackages from "@/components/CorporatePackages";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Users, Target, Lightbulb, Heart, Phone, Mail, MessageCircle } from "lucide-react";
 
 // Import team images
@@ -129,20 +130,41 @@ const Grupos = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {benefits.map((benefit, index) => (
-              <Card key={index} className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
-                <div className="mb-4 overflow-hidden rounded-lg">
-                  <img 
-                    src={benefit.image} 
-                    alt={benefit.title}
-                    className="w-full h-40 object-cover transition-transform duration-300 hover:scale-105"
-                  />
-                </div>
-                <h3 className="text-xl font-bold text-primary mb-3">{benefit.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{benefit.description}</p>
-              </Card>
-            ))}
+          <div className="flex justify-center">
+            <div className="w-full max-w-5xl">
+              <Carousel 
+                opts={{
+                  align: "center",
+                  loop: true,
+                }}
+                className="relative"
+              >
+                <CarouselContent className="-ml-2 md:-ml-4">
+                  {benefits.map((benefit, index) => (
+                    <CarouselItem key={index} className="pl-2 md:pl-4">
+                      <Card className="mx-auto max-w-2xl overflow-hidden bg-gradient-to-br from-background to-muted/30 shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2">
+                        <div className="relative">
+                          <div className="aspect-[16/9] overflow-hidden">
+                            <img 
+                              src={benefit.image} 
+                              alt={benefit.title}
+                              className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                          </div>
+                          <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
+                            <h3 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">{benefit.title}</h3>
+                            <p className="text-lg md:text-xl leading-relaxed text-white/90">{benefit.description}</p>
+                          </div>
+                        </div>
+                      </Card>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious className="left-4 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest shadow-lg" />
+                <CarouselNext className="right-4 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest shadow-lg" />
+              </Carousel>
+            </div>
           </div>
         </div>
       </section>
