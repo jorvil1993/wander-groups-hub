@@ -7,12 +7,11 @@ const NavBar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-white tracking-wider">
-              WANDER
-            </div>
-            <div className="text-xs text-white/80 ml-2 font-light">
-              CABINS
-            </div>
+            <img 
+              src="/lovable-uploads/601c3679-d66d-4e30-bf21-0540489d38ea.png" 
+              alt="Wander Cabins Logo" 
+              className="h-10 w-auto"
+            />
           </div>
 
           {/* Navigation Links */}
