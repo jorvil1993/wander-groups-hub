@@ -124,7 +124,7 @@ const Grupos = () => {
             <h2 className="text-4xl md:text-5xl font-oswald font-medium mb-6 uppercase mx-2.5" style={{ letterSpacing: '0.5px', color: '#818C78' }}>
               ¿Por qué elegir Wander para tu equipo?
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-foreground max-w-3xl mx-auto">
               Los retiros corporativos en la naturaleza han demostrado mejorar significativamente 
               la productividad, creatividad y cohesión de los equipos de trabajo.
             </p>
