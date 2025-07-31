@@ -18,7 +18,7 @@ const Grupos = () => {
     {
       title: "Valle de Bravo",
       location: "Estado de México",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop",
+      image: "/lovable-uploads/def6e8e6-a5b0-4008-9109-de65ea8474af.png",
       capacity: "5-40 personas",
       features: ["WiFi", "Cocina", "Jacuzzi", "Fogata", "Vista al lago"],
       description: "Cabañas frente al lago ideales para retiros empresariales con actividades acuáticas y senderismo.",
