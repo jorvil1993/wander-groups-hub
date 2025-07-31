@@ -222,7 +222,7 @@ const Grupos = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-forest hover:bg-forest/90 text-forest-foreground font-semibold px-8 py-3">
+            <Button size="lg" className="bg-forest hover:bg-forest/90 text-forest-foreground font-semibold px-16 py-6 text-xl h-16">
               Solicitar Cotización
             </Button>
             <Button size="lg" variant="outline" className="border-forest text-forest hover:bg-forest hover:text-forest-foreground font-semibold px-8 py-3">
