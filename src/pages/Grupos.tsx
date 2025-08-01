@@ -20,7 +20,7 @@ const Grupos = () => {
       location: "2 horas desde CDMX",
       image: "/lovable-uploads/def6e8e6-a5b0-4008-9109-de65ea8474af.png",
       capacity: "5-40 personas",
-      features: ["WiFi", "Cocina", "Jacuzzi", "Fogata", "Vista al lago"],
+      features: ["Cocina", "Jacuzzi", "Fogata", "Vista al lago"],
       description: "Cabañas frente al lago ideales para retiros empresariales con actividades acuáticas y senderismo.",
       priceRange: "$2,500-$5,000",
       links: {
@@ -35,7 +35,7 @@ const Grupos = () => {
       location: "Estado de México",
       image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=2070&auto=format&fit=crop",
       capacity: "8-30 personas",
-      features: ["Arquitectura única", "WiFi", "Cocina", "Terrazas", "Vista panorámica"],
+      features: ["Arquitectura única", "Cocina", "Terrazas", "Vista panorámica"],
       description: "Diseño arquitectónico excepcional en las montañas, perfecto para equipos creativos.",
       priceRange: "$3,000-$6,000",
       links: {
@@ -50,7 +50,7 @@ const Grupos = () => {
       location: "Estado de México",
       image: "https://images.unsplash.com/photo-1542006614-aa1c8b6f6bb5?q=80&w=2127&auto=format&fit=crop",
       capacity: "6-35 personas",
-      features: ["Bosque", "Chimenea", "WiFi", "Cocina", "Actividades outdoor"],
+      features: ["Bosque", "Chimenea", "Cocina", "Actividades outdoor"],
       description: "Bosque de pinos y aire puro, ideal para dinámicas de team building en la naturaleza.",
       priceRange: "$2,200-$4,500",
       links: {
@@ -65,7 +65,7 @@ const Grupos = () => {
       location: "Estado de México",
       image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop",
       capacity: "4-25 personas",
-      features: ["Pueblo mágico", "WiFi", "Cocina", "Cultura", "Gastronomía"],
+      features: ["Pueblo mágico", "Cocina", "Cultura", "Gastronomía"],
       description: "Experiencia cultural en pueblo mágico, combinando trabajo y tradición mexicana.",
       priceRange: "$2,800-$5,200",
       links: {
@@ -80,7 +80,7 @@ const Grupos = () => {
       location: "Hidalgo",
       image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071&auto=format&fit=crop",
       capacity: "8-45 personas",
-      features: ["Bosque templado", "WiFi", "Cocina", "Senderismo", "Aire puro"],
+      features: ["Bosque templado", "Cocina", "Senderismo", "Aire puro"],
       description: "Bosques de coníferas y clima fresco, perfecto para retiros de reflexión y estrategia.",
       priceRange: "$2,000-$4,200",
       links: {
@@ -95,7 +95,7 @@ const Grupos = () => {
       location: "Estado de México",
       image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2070&auto=format&fit=crop",
       capacity: "10-50 personas",
-      features: ["Estilo alpino", "WiFi", "Cocina", "Amplios espacios", "Vista montañas"],
+      features: ["Estilo alpino", "Cocina", "Amplios espacios", "Vista montañas"],
       description: "Arquitectura alpina con amplios espacios comunes, ideal para grupos grandes.",
       priceRange: "$3,500-$7,000",
       links: {
@@ -110,7 +110,7 @@ const Grupos = () => {
       location: "Querétaro",
       image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop",
       capacity: "6-32 personas",
-      features: ["Viñedos", "WiFi", "Cocina", "Cata de vinos", "Ambiente exclusivo"],
+      features: ["Viñedos", "Cocina", "Cata de vinos", "Ambiente exclusivo"],
       description: "Rodeado de viñedos con experiencias gastronómicas únicas para equipos ejecutivos.",
       priceRange: "$3,200-$6,500",
       links: {
@@ -125,7 +125,7 @@ const Grupos = () => {
       location: "Coahuila",
       image: "https://images.unsplash.com/photo-1542006614-aa1c8b6f6bb5?q=80&w=2127&auto=format&fit=crop",
       capacity: "5-28 personas",
-      features: ["Sierra madre", "WiFi", "Cocina", "Clima fresco", "Aventura"],
+      features: ["Sierra madre", "Cocina", "Clima fresco", "Aventura"],
       description: "Montañas de Coahuila con actividades de aventura, ideal para team building extremo.",
       priceRange: "$2,800-$5,500",
       links: {
