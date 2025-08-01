@@ -10,9 +10,15 @@ interface LocationCardProps {
   features: string[];
   description: string;
   priceRange: string;
+  links: {
+    sobreNosotros: string;
+    nuestrasCabanas: string;
+    nuestrasExperiencias: string;
+    nuestrosPrecios: string;
+  };
 }
 
-const LocationCard = ({ title, location, image, capacity, features, description, priceRange }: LocationCardProps) => {
+const LocationCard = ({ title, location, image, capacity, features, description, priceRange, links }: LocationCardProps) => {
   return (
     <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300 bg-card border-border">
       <div className="relative overflow-hidden">
@@ -53,16 +59,28 @@ const LocationCard = ({ title, location, image, capacity, features, description,
         </div>
         
         <div className="grid grid-cols-2 gap-2">
-          <Button className="text-sm">
+          <Button 
+            className="text-sm" 
+            onClick={() => window.open(links.sobreNosotros, '_blank')}
+          >
             SOBRE NOSOTROS
           </Button>
-          <Button className="text-sm">
+          <Button 
+            className="text-sm"
+            onClick={() => window.open(links.nuestrasCabanas, '_blank')}
+          >
             NUESTRAS CABAÑAS
           </Button>
-          <Button className="text-sm">
+          <Button 
+            className="text-sm"
+            onClick={() => window.open(links.nuestrasExperiencias, '_blank')}
+          >
             NUESTRAS EXPERIENCIAS
           </Button>
-          <Button className="text-sm">
+          <Button 
+            className="text-sm"
+            onClick={() => window.open(links.nuestrosPrecios, '_blank')}
+          >
             NUESTROS PRECIOS
           </Button>
         </div>

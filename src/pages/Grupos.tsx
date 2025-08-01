@@ -22,7 +22,13 @@ const Grupos = () => {
       capacity: "5-40 personas",
       features: ["WiFi", "Cocina", "Jacuzzi", "Fogata", "Vista al lago"],
       description: "Cabañas frente al lago ideales para retiros empresariales con actividades acuáticas y senderismo.",
-      priceRange: "$2,500-$5,000"
+      priceRange: "$2,500-$5,000",
+      links: {
+        sobreNosotros: "https://www.canva.com/design/DAGTlCX20d8/YjcwfL6FAMXZ6N6Kd_R4Xw/view?utm_content=DAGTlCX20d8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd23c272fbc",
+        nuestrasCabanas: "https://www.canva.com/design/DAGWcay6luU/NEHxMvyVITg0JkdTn6vhpw/view?utm_content=DAGWcay6luU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5f51670d6e#1",
+        nuestrasExperiencias: "https://www.canva.com/design/DAGWcVXaoPQ/wbhXGZD99zD1X6HLitoxCQ/view?utm_content=DAGWcVXaoPQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h807160ca8b#1",
+        nuestrosPrecios: "https://www.canva.com/design/DAGfCsmz7Q8/VWAhufJ2NXTddPsI7RhZSA/view?utm_content=DAGfCsmz7Q8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb058b7706b"
+      }
     },
     {
       title: "Malinalco Rojkind",
@@ -31,7 +37,13 @@ const Grupos = () => {
       capacity: "8-30 personas",
       features: ["Arquitectura única", "WiFi", "Cocina", "Terrazas", "Vista panorámica"],
       description: "Diseño arquitectónico excepcional en las montañas, perfecto para equipos creativos.",
-      priceRange: "$3,000-$6,000"
+      priceRange: "$3,000-$6,000",
+      links: {
+        sobreNosotros: "https://www.canva.com/design/DAGT2Xw89So/0YLDTTRL7KQYLRLn91NAig/view?utm_content=DAGT2Xw89So&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd29e9a6960",
+        nuestrasCabanas: "https://www.canva.com/design/DAGZIOtSras/GwPgthRy_Bel_jl29us9ng/view?utm_content=DAGZIOtSras&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8e77e660fe",
+        nuestrasExperiencias: "https://www.canva.com/design/DAGY3G83XoI/znihseZR2GXnJ9RZM0qJxw/view?utm_content=DAGY3G83XoI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h100299c485",
+        nuestrosPrecios: "https://www.canva.com/design/DAGfCggZHcY/wjxqgz8RAdsWTxPSeWDITw/view?utm_content=DAGfCggZHcY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0ab45b0022"
+      }
     },
     {
       title: "La Marquesa",
@@ -40,7 +52,13 @@ const Grupos = () => {
       capacity: "6-35 personas",
       features: ["Bosque", "Chimenea", "WiFi", "Cocina", "Actividades outdoor"],
       description: "Bosque de pinos y aire puro, ideal para dinámicas de team building en la naturaleza.",
-      priceRange: "$2,200-$4,500"
+      priceRange: "$2,200-$4,500",
+      links: {
+        sobreNosotros: "https://www.canva.com/design/DAGSByBdvhc/wmDjoJRcWxr4D1nXNpZSrA/view?utm_content=DAGSByBdvhc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4ecae278e5",
+        nuestrasCabanas: "https://www.canva.com/design/DAGY3EVNtHY/2lOL6dkiu0YLWwmgz_Mgfg/view?utm_content=DAGY3EVNtHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4865eb75e8",
+        nuestrasExperiencias: "https://www.canva.com/design/DAGYJ8n_W1A/U1rugEAKb8YZNOxkPrqhLQ/view?utm_content=DAGYJ8n_W1A&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h672faf7b07",
+        nuestrosPrecios: "https://www.canva.com/design/DAGfCK1h4H8/smZ5ydAAnqRkJFeWhoOtPw/view?utm_content=DAGfCK1h4H8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h17f454b787"
+      }
     },
     {
       title: "Malinalco Centro",
@@ -49,7 +67,13 @@ const Grupos = () => {
       capacity: "4-25 personas",
       features: ["Pueblo mágico", "WiFi", "Cocina", "Cultura", "Gastronomía"],
       description: "Experiencia cultural en pueblo mágico, combinando trabajo y tradición mexicana.",
-      priceRange: "$2,800-$5,200"
+      priceRange: "$2,800-$5,200",
+      links: {
+        sobreNosotros: "https://www.canva.com/design/DAGT2Xw89So/0YLDTTRL7KQYLRLn91NAig/view?utm_content=DAGT2Xw89So&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd29e9a6960",
+        nuestrasCabanas: "https://www.canva.com/design/DAGZIOtSras/GwPgthRy_Bel_jl29us9ng/view?utm_content=DAGZIOtSras&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8e77e660fe",
+        nuestrasExperiencias: "https://www.canva.com/design/DAGY3G83XoI/znihseZR2GXnJ9RZM0qJxw/view?utm_content=DAGY3G83XoI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h100299c485",
+        nuestrosPrecios: "https://www.canva.com/design/DAGfCggZHcY/wjxqgz8RAdsWTxPSeWDITw/view?utm_content=DAGfCggZHcY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0ab45b0022"
+      }
     },
     {
       title: "Mineral del Chico",
@@ -58,7 +82,13 @@ const Grupos = () => {
       capacity: "8-45 personas",
       features: ["Bosque templado", "WiFi", "Cocina", "Senderismo", "Aire puro"],
       description: "Bosques de coníferas y clima fresco, perfecto para retiros de reflexión y estrategia.",
-      priceRange: "$2,000-$4,200"
+      priceRange: "$2,000-$4,200",
+      links: {
+        sobreNosotros: "https://www.canva.com/design/DAGgEWlIvRA/X5_zuDz_xVElLMEthDbPcA/view?utm_content=DAGgEWlIvRA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha66a1817d4",
+        nuestrasCabanas: "https://www.canva.com/design/DAGgaPWL-Fo/T1P8fy-Nq1SemhfFlA9wUA/view?utm_content=DAGgaPWL-Fo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h68076ad2fd",
+        nuestrasExperiencias: "https://www.canva.com/design/DAGl2_y49OI/bN5_K9dPDINbLJIX_MrviA/view?utm_content=DAGl2_y49OI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbd5507d241",
+        nuestrosPrecios: "https://www.canva.com/design/DAGkSUV1z0I/izOIkA8ffHdIPjXuLVlo2w/view?utm_content=DAGkSUV1z0I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hecad2c004a"
+      }
     },
     {
       title: "Villa Alpina",
@@ -67,7 +97,13 @@ const Grupos = () => {
       capacity: "10-50 personas",
       features: ["Estilo alpino", "WiFi", "Cocina", "Amplios espacios", "Vista montañas"],
       description: "Arquitectura alpina con amplios espacios comunes, ideal para grupos grandes.",
-      priceRange: "$3,500-$7,000"
+      priceRange: "$3,500-$7,000",
+      links: {
+        sobreNosotros: "https://www.canva.com/design/DAGgZpNSNzE/3BUDMmh4JNc1gPX9sIIAew/view?utm_content=DAGgZpNSNzE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h329f020023",
+        nuestrasCabanas: "https://www.canva.com/design/DAGgac66x9Q/WjjawwLLpxHkljAsVKoOng/view?utm_content=DAGgac66x9Q&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h95caf87aa9",
+        nuestrasExperiencias: "https://www.canva.com/design/DAGisaH2uvM/w4d7NJ36v8NQHSoTx9D4sg/view?utm_content=DAGisaH2uvM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8d1be15698",
+        nuestrosPrecios: "https://www.canva.com/design/DAGkSxPxSQw/QTglB5OlG3xpYJ0HIc_dNg/view?utm_content=DAGkSxPxSQw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0f8dd29162"
+      }
     },
     {
       title: "Tzibantza, Querétaro",
@@ -76,7 +112,13 @@ const Grupos = () => {
       capacity: "6-32 personas",
       features: ["Viñedos", "WiFi", "Cocina", "Cata de vinos", "Ambiente exclusivo"],
       description: "Rodeado de viñedos con experiencias gastronómicas únicas para equipos ejecutivos.",
-      priceRange: "$3,200-$6,500"
+      priceRange: "$3,200-$6,500",
+      links: {
+        sobreNosotros: "https://www.canva.com/design/DAGT2Xw89So/0YLDTTRL7KQYLRLn91NAig/view?utm_content=DAGT2Xw89So&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd29e9a6960",
+        nuestrasCabanas: "https://www.canva.com/design/DAGZIOtSras/GwPgthRy_Bel_jl29us9ng/view?utm_content=DAGZIOtSras&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8e77e660fe",
+        nuestrasExperiencias: "https://www.canva.com/design/DAGY3G83XoI/znihseZR2GXnJ9RZM0qJxw/view?utm_content=DAGY3G83XoI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h100299c485",
+        nuestrosPrecios: "https://www.canva.com/design/DAGfCggZHcY/wjxqgz8RAdsWTxPSeWDITw/view?utm_content=DAGfCggZHcY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0ab45b0022"
+      }
     },
     {
       title: "Arteaga, Monterrey",
@@ -85,7 +127,13 @@ const Grupos = () => {
       capacity: "5-28 personas",
       features: ["Sierra madre", "WiFi", "Cocina", "Clima fresco", "Aventura"],
       description: "Montañas de Coahuila con actividades de aventura, ideal para team building extremo.",
-      priceRange: "$2,800-$5,500"
+      priceRange: "$2,800-$5,500",
+      links: {
+        sobreNosotros: "https://www.canva.com/design/DAGPoRelHK8/Sq1svtoAWGE8ayFFb6U92A/view?utm_content=DAGPoRelHK8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbb9c07ffbb",
+        nuestrasCabanas: "https://www.canva.com/design/DAGY2hBW6TU/bkH7MxxogSAJ95Id-1gAsg/view?utm_content=DAGY2hBW6TU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h549bf4d6ec",
+        nuestrasExperiencias: "https://www.canva.com/design/DAGX0PVPl6s/p4a9M0-QHY2JqXtpN0Sr2Q/view?utm_content=DAGX0PVPl6s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc9545cca0c#1",
+        nuestrosPrecios: "https://www.canva.com/design/DAGfCOVNNz0/xIXoEWnsVbvnhsj8iTFJhg/view?utm_content=DAGfCOVNNz0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1cf38b4222"
+      }
     }
   ];
 
