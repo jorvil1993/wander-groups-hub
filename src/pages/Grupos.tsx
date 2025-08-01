@@ -104,36 +104,6 @@ const Grupos = () => {
         nuestrasExperiencias: "https://www.canva.com/design/DAGisaH2uvM/w4d7NJ36v8NQHSoTx9D4sg/view?utm_content=DAGisaH2uvM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8d1be15698",
         nuestrosPrecios: "https://www.canva.com/design/DAGkSxPxSQw/QTglB5OlG3xpYJ0HIc_dNg/view?utm_content=DAGkSxPxSQw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0f8dd29162"
       }
-    },
-    {
-      title: "Tzibantza, Querétaro",
-      location: "1.5 horas desde Querétaro",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop",
-      capacity: "2-4 personas por cabaña (9 cabañas disponibles)",
-      features: ["Presa de Zimapán", "Vista al lago", "Acceso directo", "Minisplit", "Cabañas grandes"],
-      description: "Wander Dehe brinda una experiencia única de aventura y descanso en una de las presas más grandes de México. Disfruta de nuestras cabañas más grandes con vista al lago.",
-      priceRange: "Desde $1,990 p/noche",
-      links: {
-        sobreNosotros: "https://www.canva.com/design/DAGT2Xw89So/0YLDTTRL7KQYLRLn91NAig/view?utm_content=DAGT2Xw89So&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd29e9a6960",
-        nuestrasCabanas: "https://www.canva.com/design/DAGZIOtSras/GwPgthRy_Bel_jl29us9ng/view?utm_content=DAGZIOtSras&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8e77e660fe",
-        nuestrasExperiencias: "https://www.canva.com/design/DAGY3G83XoI/znihseZR2GXnJ9RZM0qJxw/view?utm_content=DAGY3G83XoI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h100299c485",
-        nuestrosPrecios: "https://www.canva.com/design/DAGfCggZHcY/wjxqgz8RAdsWTxPSeWDITw/view?utm_content=DAGfCggZHcY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0ab45b0022"
-      }
-    },
-    {
-      title: "Arteaga, Monterrey",
-      location: "1 hora desde Monterrey",
-      image: "https://images.unsplash.com/photo-1542006614-aa1c8b6f6bb5?q=80&w=2127&auto=format&fit=crop",
-      capacity: "1-2 personas por cabaña (10 cabañas disponibles)",
-      features: ["Cactus imponentes", "Vistas a la sierra", "Aislamiento total", "Avistamiento estrellas", "Ciclismo"],
-      description: "Un sitio único y espectacular en la montaña, rodeado de imponentes cactuses y plantas. Cada cabaña se encuentra completamente aislada con vistas únicas a la sierra madre.",
-      priceRange: "Desde $1,990 p/noche",
-      links: {
-        sobreNosotros: "https://www.canva.com/design/DAGPoRelHK8/Sq1svtoAWGE8ayFFb6U92A/view?utm_content=DAGPoRelHK8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbb9c07ffbb",
-        nuestrasCabanas: "https://www.canva.com/design/DAGY2hBW6TU/bkH7MxxogSAJ95Id-1gAsg/view?utm_content=DAGY2hBW6TU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h549bf4d6ec",
-        nuestrasExperiencias: "https://www.canva.com/design/DAGX0PVPl6s/p4a9M0-QHY2JqXtpN0Sr2Q/view?utm_content=DAGX0PVPl6s&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc9545cca0c#1",
-        nuestrosPrecios: "https://www.canva.com/design/DAGfCOVNNz0/xIXoEWnsVbvnhsj8iTFJhg/view?utm_content=DAGfCOVNNz0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1cf38b4222"
-      }
     }
   ];
 
