@@ -230,7 +230,12 @@ const Grupos = () => {
             <div className="flex flex-col items-center">
               <Mail className="h-8 w-8 text-forest mb-3" />
               <h3 className="font-bold text-primary mb-2">Escríbenos</h3>
-              <p className="text-muted-foreground">gerardo@wandercabins.mx</p>
+              <a 
+                href="mailto:gerardo@wandercabins.mx"
+                className="text-muted-foreground hover:text-forest transition-colors cursor-pointer"
+              >
+                gerardo@wandercabins.mx
+              </a>
             </div>
             <div className="flex flex-col items-center">
               <MessageCircle className="h-8 w-8 text-forest mb-3" />
