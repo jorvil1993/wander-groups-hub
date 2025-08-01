@@ -18,7 +18,7 @@ const Grupos = () => {
     {
       title: "Valle de Bravo",
       location: "2 horas desde CDMX",
-      image: "/lovable-uploads/valle-de-bravo-real.jpg",
+      image: "/lovable-uploads/valle-de-bravo.jpg",
       capacity: "2-4 personas por cabaña (9 cabañas disponibles)",
       features: ["Bosque de pinos", "Río", "Jacuzzi", "Cine", "Senderismo"],
       description: "Disfruta de nuestras cabañas originales ubicadas en medio del bosque en Valle de Bravo. Cada cabaña rodeada de imponentes pinos para mayor privacidad con acceso a río y múltiples actividades outdoor.",
