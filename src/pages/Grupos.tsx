@@ -238,7 +238,7 @@ const Grupos = () => {
         </div>
       </section>
 
-      <CorporatePackages />
+      {/* <CorporatePackages /> */}
 
       {/* Contact Section */}
       <section className="py-20 bg-background">
