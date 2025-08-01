@@ -257,7 +257,7 @@ const Grupos = () => {
               className="bg-orange hover:bg-orange/90 text-orange-foreground font-semibold px-16 py-6 text-xl h-16"
               onClick={() => window.open('https://calendly.com/gerardo-wandercabins/30min', '_blank')}
             >
-              SOLICITAR COTIZACIÓN
+              SOLICITAR PROPUESTA PERSONALIZADA
             </Button>
           </div>
         </div>
