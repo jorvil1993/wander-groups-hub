@@ -35,23 +35,23 @@ const HeroSection = () => {
         </div>
 
         {/* Quick Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
-          <div className="text-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto py-8 px-6">
+          <div className="text-center p-4">
             <Building2 className="h-8 w-8 mx-auto mb-2 text-warm-beige" />
             <div className="text-2xl font-bold">6+</div>
             <div className="text-sm">Ubicaciones</div>
           </div>
-          <div className="text-center">
+          <div className="text-center p-4">
             <Users className="h-8 w-8 mx-auto mb-2 text-warm-beige" />
             <div className="text-2xl font-bold">5-50</div>
             <div className="text-sm">Personas</div>
           </div>
-          <div className="text-center">
+          <div className="text-center p-4">
             <Calendar className="h-8 w-8 mx-auto mb-2 text-warm-beige" />
             <div className="text-2xl font-bold">24/7</div>
             <div className="text-sm">Disponible</div>
           </div>
-          <div className="text-center">
+          <div className="text-center p-4">
             <MapPin className="h-8 w-8 mx-auto mb-2 text-warm-beige" />
             <div className="text-2xl font-bold">3</div>
             <div className="text-sm">Estados</div>
