@@ -33,7 +33,7 @@ const Grupos = () => {
     {
       title: "Malinalco Rojkind",
       location: "1.5 horas desde CDMX",
-      image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=2070&auto=format&fit=crop",
+      image: "/lovable-uploads/681ada9c-74e2-491f-968c-6ac003886d82.png",
       capacity: "8-30 personas",
       features: ["Arquitectura única", "Cocina", "Terrazas", "Vista panorámica"],
       description: "Diseño arquitectónico excepcional en las montañas, perfecto para equipos creativos.",
