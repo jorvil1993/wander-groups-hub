@@ -221,10 +221,10 @@ const Grupos = () => {
       <section className="py-20 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+            <h2 className="text-4xl md:text-5xl font-oswald font-normal mb-6 uppercase mx-2.5" style={{ letterSpacing: '0.5px', color: '#818C70' }}>
               Nuestras Ubicaciones
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-foreground max-w-3xl mx-auto">
               Desde lagos tranquilos hasta montañas inspiradoras, cada ubicación está cuidadosamente 
               seleccionada para ofrecer la experiencia perfecta para tu equipo.
             </p>
@@ -243,10 +243,10 @@ const Grupos = () => {
       {/* Contact Section */}
       <section className="py-20 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+          <h2 className="text-4xl md:text-5xl font-oswald font-normal mb-6 uppercase mx-2.5" style={{ letterSpacing: '0.5px', color: '#818C70' }}>
             ¿Listo para planificar tu retiro corporativo?
           </h2>
-          <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
+          <p className="text-xl text-foreground mb-12 max-w-2xl mx-auto">
             Nuestro equipo de especialistas en eventos corporativos te ayudará a diseñar 
             la experiencia perfecta para tu equipo.
           </p>
