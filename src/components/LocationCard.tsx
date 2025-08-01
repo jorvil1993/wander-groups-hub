@@ -27,9 +27,6 @@ const LocationCard = ({ title, location, image, capacity, features, description,
           alt={title}
           className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
         />
-        <div className="absolute top-4 right-4 bg-forest text-forest-foreground px-3 py-1 rounded-full text-sm font-medium">
-          {priceRange}
-        </div>
       </div>
       
       <div className="p-6">
