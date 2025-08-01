@@ -8,7 +8,7 @@ const NavBar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/601c3679-d66d-4e30-bf21-0540489d38ea.png" 
+              src="/lovable-uploads/8c7cbe51-e74c-48b3-8c0f-f45c4a5164a6.png" 
               alt="Wander Cabins Logo" 
               className="h-10 w-auto"
             />
