@@ -243,6 +243,32 @@ const Grupos = () => {
       {/* Contact Section */}
       <section className="py-20 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+            ¿Listo para planificar tu retiro corporativo?
+          </h2>
+          <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
+            Nuestro equipo de especialistas en eventos corporativos te ayudará a diseñar 
+            la experiencia perfecta para tu equipo.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="flex flex-col items-center">
+              <Phone className="h-8 w-8 text-forest mb-3" />
+              <h3 className="font-bold text-primary mb-2">Llámanos</h3>
+              <p className="text-muted-foreground">+52 55 1234 5678</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <Mail className="h-8 w-8 text-forest mb-3" />
+              <h3 className="font-bold text-primary mb-2">Escríbenos</h3>
+              <p className="text-muted-foreground">grupos@wandercabins.mx</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <MessageCircle className="h-8 w-8 text-forest mb-3" />
+              <h3 className="font-bold text-primary mb-2">WhatsApp</h3>
+              <p className="text-muted-foreground">+52 55 9876 5432</p>
+            </div>
+          </div>
+
           <div className="flex justify-center">
             <Button 
               size="lg" 
