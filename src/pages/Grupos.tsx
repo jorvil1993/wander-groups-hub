@@ -78,7 +78,7 @@ const Grupos = () => {
     {
       title: "Mineral del Chico",
       location: "2 horas desde CDMX",
-      image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071&auto=format&fit=crop",
+      image: "/lovable-uploads/1a135d20-e130-4649-b20a-c5103142b4a9.png",
       capacity: "2-4 personas por cabaña (11 cabañas disponibles)",
       features: ["Parque Nacional", "Diseño circular", "A Frames", "Vistas panorámicas", "Pueblo Mágico"],
       description: "Wander llega a Mineral del Chico! Conoce nuestro nuevo Wander con diseño de cabañas circular y nuestras famosas A Frames ubicadas en el Parque Nacional El Chico.",
