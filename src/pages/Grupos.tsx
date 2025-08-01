@@ -48,7 +48,7 @@ const Grupos = () => {
     {
       title: "La Marquesa",
       location: "30 minutos desde CDMX",
-      image: "https://images.unsplash.com/photo-1542006614-aa1c8b6f6bb5?q=80&w=2127&auto=format&fit=crop",
+      image: "/lovable-uploads/3bc77ed4-4657-4518-9abe-2aa4f51536b2.png",
       capacity: "2-4 personas por cabaña (4 cabañas disponibles)",
       features: ["Bosque de pinos", "Máxima privacidad", "Sendero 5km", "Cerca de Santa Fe", "Aislamiento total"],
       description: "Nuestro Wander más extenso y privado. Disfruta de una cabaña completamente aislada en medio de un gran bosque de pinos de La Marquesa, ideal para desconexión total.",
