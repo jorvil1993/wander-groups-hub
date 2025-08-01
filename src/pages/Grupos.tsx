@@ -93,7 +93,7 @@ const Grupos = () => {
     {
       title: "Villa Alpina",
       location: "45 minutos desde CDMX",
-      image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2070&auto=format&fit=crop",
+      image: "/lovable-uploads/d10ca04b-1cb8-4f5b-89df-0faa35b5c41b.png",
       capacity: "2-4 personas por cabaña (15 cabañas disponibles)",
       features: ["Diseño Michel Rojkind", "Vistas panorámicas", "Piedras gigantes", "Árboles alpinos", "Huixquilucan"],
       description: "Conoce el nuevo diseño de cabañas de Michel Rojkind y disfruta de una experiencia única debajo de espectaculares árboles y rodeado de piedras gigantes en Villa Alpina.",
