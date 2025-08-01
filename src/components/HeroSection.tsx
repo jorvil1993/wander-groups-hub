@@ -38,7 +38,7 @@ const HeroSection = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
           <div className="text-center">
             <Building2 className="h-8 w-8 mx-auto mb-2 text-warm-beige" />
-            <div className="text-2xl font-bold">8+</div>
+            <div className="text-2xl font-bold">6+</div>
             <div className="text-sm">Ubicaciones</div>
           </div>
           <div className="text-center">
