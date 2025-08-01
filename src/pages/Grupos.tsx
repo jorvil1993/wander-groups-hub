@@ -235,7 +235,14 @@ const Grupos = () => {
             <div className="flex flex-col items-center">
               <MessageCircle className="h-8 w-8 text-forest mb-3" />
               <h3 className="font-bold text-primary mb-2">WhatsApp</h3>
-              <p className="text-muted-foreground">+52 55 9876 5432</p>
+              <a 
+                href="https://wa.me/5215533919316?text=Hola,%20quiero%20más%20información%20de%20los%20paquetes%20corporativos%20de%20Wander"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-forest transition-colors cursor-pointer"
+              >
+                +52 1 55 3391 9316
+              </a>
             </div>
           </div>
 
