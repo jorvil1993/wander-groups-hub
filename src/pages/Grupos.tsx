@@ -31,13 +31,13 @@ const Grupos = () => {
       }
     },
     {
-      title: "Malinalco Rojkind",
+      title: "Malinalco Centro",
       location: "1.5 horas desde CDMX",
       image: "/lovable-uploads/681ada9c-74e2-491f-968c-6ac003886d82.png",
-      capacity: "8-30 personas",
-      features: ["Arquitectura única", "Cocina", "Terrazas", "Vista panorámica"],
-      description: "Diseño arquitectónico excepcional en las montañas, perfecto para equipos creativos.",
-      priceRange: "$3,000-$6,000",
+      capacity: "2-4 personas por cabaña (6 cabañas disponibles)",
+      features: ["A orilla del río", "Árboles de amate", "Pozo de fuego", "Baño privado", "Ducha caliente"],
+      description: "Wander único donde cada cabaña se encuentra a la orilla de un río y rodeadas de árboles de amate de más de 3 metros de ancho. Con acceso privado al río en Malinalco, Estado de México.",
+      priceRange: "Desde $1,990 p/noche",
       links: {
         sobreNosotros: "https://www.canva.com/design/DAGT2Xw89So/0YLDTTRL7KQYLRLn91NAig/view?utm_content=DAGT2Xw89So&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd29e9a6960",
         nuestrasCabanas: "https://www.canva.com/design/DAGZIOtSras/GwPgthRy_Bel_jl29us9ng/view?utm_content=DAGZIOtSras&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8e77e660fe",
