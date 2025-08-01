@@ -18,7 +18,7 @@ const Grupos = () => {
     {
       title: "Valle de Bravo",
       location: "2 horas desde CDMX",
-      image: "/lovable-uploads/valle-de-bravo.jpg",
+      image: "/lovable-uploads/def6e8e6-a5b0-4008-9109-de65ea8474af.png",
       capacity: "2-4 personas por cabaña (9 cabañas disponibles)",
       features: ["Bosque de pinos", "Río", "Jacuzzi", "Cine", "Senderismo"],
       description: "Disfruta de nuestras cabañas originales ubicadas en medio del bosque en Valle de Bravo. Cada cabaña rodeada de imponentes pinos para mayor privacidad con acceso a río y múltiples actividades outdoor.",
@@ -48,7 +48,7 @@ const Grupos = () => {
     {
       title: "La Marquesa",
       location: "30 minutos desde CDMX",
-      image: "/lovable-uploads/la-marquesa.jpg",
+      image: "https://images.unsplash.com/photo-1542006614-aa1c8b6f6bb5?q=80&w=2127&auto=format&fit=crop",
       capacity: "2-4 personas por cabaña (4 cabañas disponibles)",
       features: ["Bosque de pinos", "Máxima privacidad", "Sendero 5km", "Cerca de Santa Fe", "Aislamiento total"],
       description: "Nuestro Wander más extenso y privado. Disfruta de una cabaña completamente aislada en medio de un gran bosque de pinos de La Marquesa, ideal para desconexión total.",
@@ -63,7 +63,7 @@ const Grupos = () => {
     {
       title: "Malinalco Rojkind",
       location: "1.5 horas desde CDMX",
-      image: "/lovable-uploads/malinalco-rojkind.jpg",
+      image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2070&auto=format&fit=crop",
       capacity: "2-4 personas por cabaña (8 cabañas disponibles)",
       features: ["Diseño Michel Rojkind", "A orilla del río", "Jacuzzi", "Rappel", "Rutas de mezcal"],
       description: "Creado por la mente visionaria del arquitecto Michel Rojkind, este sitio ofrece un refugio encantador que abraza la naturaleza, con cabañas ubicadas a la orilla de un imponente río en Malinalco.",
@@ -78,7 +78,7 @@ const Grupos = () => {
     {
       title: "Mineral del Chico",
       location: "2 horas desde CDMX",
-      image: "/lovable-uploads/mineral-del-chico.jpg",
+      image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071&auto=format&fit=crop",
       capacity: "2-4 personas por cabaña (11 cabañas disponibles)",
       features: ["Parque Nacional", "Diseño circular", "A Frames", "Vistas panorámicas", "Pueblo Mágico"],
       description: "Wander llega a Mineral del Chico! Conoce nuestro nuevo Wander con diseño de cabañas circular y nuestras famosas A Frames ubicadas en el Parque Nacional El Chico.",
@@ -93,7 +93,7 @@ const Grupos = () => {
     {
       title: "Villa Alpina",
       location: "45 minutos desde CDMX",
-      image: "/lovable-uploads/villa-alpina.jpg",
+      image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2070&auto=format&fit=crop",
       capacity: "2-4 personas por cabaña (15 cabañas disponibles)",
       features: ["Diseño Michel Rojkind", "Vistas panorámicas", "Piedras gigantes", "Árboles alpinos", "Huixquilucan"],
       description: "Conoce el nuevo diseño de cabañas de Michel Rojkind y disfruta de una experiencia única debajo de espectaculares árboles y rodeado de piedras gigantes en Villa Alpina.",
@@ -108,7 +108,7 @@ const Grupos = () => {
     {
       title: "Tzibantza, Querétaro",
       location: "1.5 horas desde Querétaro",
-      image: "/lovable-uploads/tzibantza-qro.jpg",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop",
       capacity: "2-4 personas por cabaña (9 cabañas disponibles)",
       features: ["Presa de Zimapán", "Vista al lago", "Acceso directo", "Minisplit", "Cabañas grandes"],
       description: "Wander Dehe brinda una experiencia única de aventura y descanso en una de las presas más grandes de México. Disfruta de nuestras cabañas más grandes con vista al lago.",
@@ -123,7 +123,7 @@ const Grupos = () => {
     {
       title: "Arteaga, Monterrey",
       location: "1 hora desde Monterrey",
-      image: "/lovable-uploads/arteaga-monterrey.jpg",
+      image: "https://images.unsplash.com/photo-1542006614-aa1c8b6f6bb5?q=80&w=2127&auto=format&fit=crop",
       capacity: "1-2 personas por cabaña (10 cabañas disponibles)",
       features: ["Cactus imponentes", "Vistas a la sierra", "Aislamiento total", "Avistamiento estrellas", "Ciclismo"],
       description: "Un sitio único y espectacular en la montaña, rodeado de imponentes cactuses y plantas. Cada cabaña se encuentra completamente aislada con vistas únicas a la sierra madre.",
