@@ -107,16 +107,6 @@ const TransformativeExperiences = () => {
             );
           })}
         </div>
-        
-        {/* Bottom CTA */}
-        <div className="mt-20 text-center">
-          <div className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-forest/10 to-orange/10 rounded-full border border-neutral-200/50 shadow-sm">
-            <div className="w-3 h-3 bg-gradient-to-r from-forest to-orange rounded-full animate-pulse"></div>
-            <span className="text-base font-medium text-neutral-700">
-              Cada experiencia está diseñada para tu equipo específico
-            </span>
-          </div>
-        </div>
       </div>
     </section>
   );
