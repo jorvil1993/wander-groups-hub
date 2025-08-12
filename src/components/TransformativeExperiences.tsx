@@ -95,13 +95,6 @@ const TransformativeExperiences = () => {
                   <p className="text-lg md:text-xl text-neutral-700 leading-relaxed">
                     {experience.description}
                   </p>
-                  
-                  <div className="pt-4">
-                    <div className={`inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r ${experience.color} border border-neutral-200/50 shadow-sm`}>
-                      <div className={`w-2 h-2 rounded-full ${experience.textColor.replace('text-', 'bg-')} animate-pulse`}></div>
-                      <span className="text-sm font-medium text-neutral-700">Experiencia disponible</span>
-                    </div>
-                  </div>
                 </div>
                 
                 {/* Image */}
