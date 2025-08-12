@@ -77,7 +77,7 @@ const TransformativeExperiences = () => {
                       <h3 className="text-2xl md:text-3xl font-light mb-2 text-neutral-800">
                         {experience.title}
                       </h3>
-                      <p className="text-sm md:text-base font-semibold text-neutral-500 tracking-wider uppercase">
+                      <p className="text-sm md:text-base font-bold text-neutral-500 tracking-wider uppercase">
                         {experience.subtitle}
                       </p>
                     </div>
