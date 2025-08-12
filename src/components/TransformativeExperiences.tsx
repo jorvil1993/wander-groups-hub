@@ -52,7 +52,7 @@ const TransformativeExperiences = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-light mb-4 text-neutral-800 tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-oswald font-light mb-6 text-neutral-700">
             Momentos que transforman
           </h2>
           <p className="text-lg md:text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
