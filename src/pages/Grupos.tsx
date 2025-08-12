@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import LocationCard from "@/components/LocationCard";
 import CorporatePackages from "@/components/CorporatePackages";
 import ServicesSection from "@/components/ServicesSection";
+import TransformativeExperiences from "@/components/TransformativeExperiences";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
@@ -196,6 +197,9 @@ const Grupos = () => {
 
       {/* Services Section */}
       <ServicesSection />
+
+      {/* Transformative Experiences Section */}
+      <TransformativeExperiences />
 
       {/* Call to Action Section */}
       <section className="py-16 bg-white border-t border-b border-neutral-200">
