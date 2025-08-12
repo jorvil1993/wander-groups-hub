@@ -13,47 +13,48 @@ const HeroSection = () => {
       />
       
       {/* Content */}
-      <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 pt-20">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-oswald font-light mb-6 leading-tight">
+      <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-oswald font-light mb-6 leading-tight">
           Lejos del ruido. 
           <span className="block text-warm-beige">Cerca de lo importante.</span>
         </h1>
         
-        <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-lg sm:text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed px-2">
           Creamos espacios donde nacen las ideas que transforman equipos.
         </p>
 
         <div className="flex justify-center mb-12">
           <Button 
             size="default" 
-            className="bg-orange hover:bg-orange/90 text-orange-foreground font-semibold px-8 py-3 text-base h-12 rounded-md"
+            className="bg-orange hover:bg-orange/90 text-orange-foreground font-semibold px-4 sm:px-8 py-3 text-sm sm:text-base h-12 rounded-md"
             onClick={() => window.open('https://calendly.com/gerardo-wandercabins/30min', '_blank')}
           >
-            SOLICITAR PROPUESTA PERSONALIZADA
+            <span className="hidden sm:inline">SOLICITAR PROPUESTA PERSONALIZADA</span>
+            <span className="sm:hidden">SOLICITAR PROPUESTA</span>
           </Button>
         </div>
 
         {/* Quick Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto py-8 px-6">
-          <div className="text-center p-4">
-            <Building2 className="h-8 w-8 mx-auto mb-2 text-warm-beige" />
-            <div className="text-2xl font-bold">6+</div>
-            <div className="text-sm">Ubicaciones</div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 max-w-2xl mx-auto py-6 sm:py-8 px-2 sm:px-6">
+          <div className="text-center p-2 sm:p-4">
+            <Building2 className="h-6 w-6 sm:h-8 sm:w-8 mx-auto mb-2 text-warm-beige" />
+            <div className="text-xl sm:text-2xl font-bold">6+</div>
+            <div className="text-xs sm:text-sm">Ubicaciones</div>
           </div>
-          <div className="text-center p-4">
-            <Users className="h-8 w-8 mx-auto mb-2 text-warm-beige" />
-            <div className="text-2xl font-bold">5-50</div>
-            <div className="text-sm">Personas</div>
+          <div className="text-center p-2 sm:p-4">
+            <Users className="h-6 w-6 sm:h-8 sm:w-8 mx-auto mb-2 text-warm-beige" />
+            <div className="text-xl sm:text-2xl font-bold">5-50</div>
+            <div className="text-xs sm:text-sm">Personas</div>
           </div>
-          <div className="text-center p-4">
-            <Calendar className="h-8 w-8 mx-auto mb-2 text-warm-beige" />
-            <div className="text-2xl font-bold">24/7</div>
-            <div className="text-sm">Disponible</div>
+          <div className="text-center p-2 sm:p-4">
+            <Calendar className="h-6 w-6 sm:h-8 sm:w-8 mx-auto mb-2 text-warm-beige" />
+            <div className="text-xl sm:text-2xl font-bold">24/7</div>
+            <div className="text-xs sm:text-sm">Disponible</div>
           </div>
-          <div className="text-center p-4">
-            <MapPin className="h-8 w-8 mx-auto mb-2 text-warm-beige" />
-            <div className="text-2xl font-bold">3</div>
-            <div className="text-sm">Estados</div>
+          <div className="text-center p-2 sm:p-4">
+            <MapPin className="h-6 w-6 sm:h-8 sm:w-8 mx-auto mb-2 text-warm-beige" />
+            <div className="text-xl sm:text-2xl font-bold">3</div>
+            <div className="text-xs sm:text-sm">Estados</div>
           </div>
         </div>
       </div>
