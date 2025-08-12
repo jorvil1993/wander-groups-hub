@@ -8,20 +8,19 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/lovable-uploads/f1c44bf2-561d-4d7d-9861-d5052c101394.png')"
+          backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/src/assets/team-campfire-forest.jpg')"
         }}
       />
       
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 pt-20">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 leading-tight">
-          EXPERIENCIAS ÚNICAS PARA 
-          <span className="block text-warm-beige">GRUPOS EMPRESARIALES</span>
+          LEJOS DEL RUIDO. 
+          <span className="block text-warm-beige">CERCA DE LO IMPORTANTE.</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-          Fortalece los lazos de tu equipo con retiros empresariales en cabañas únicas 
-          rodeadas de naturaleza. Espacios diseñados para inspirar creatividad y colaboración.
+          Creamos espacios donde nacen las ideas que transforman equipos.
         </p>
 
         <div className="flex justify-center mb-12">
