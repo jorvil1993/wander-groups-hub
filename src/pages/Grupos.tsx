@@ -2,7 +2,6 @@ import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
 import LocationCard from "@/components/LocationCard";
 import CorporatePackages from "@/components/CorporatePackages";
-import ServicesSection from "@/components/ServicesSection";
 import TransformativeExperiences from "@/components/TransformativeExperiences";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -194,9 +193,6 @@ const Grupos = () => {
           </div>
         </div>
       </section>
-
-      {/* Services Section */}
-      <ServicesSection />
 
       {/* Transformative Experiences Section */}
       <TransformativeExperiences />
