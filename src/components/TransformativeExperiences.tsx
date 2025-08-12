@@ -51,7 +51,7 @@ const TransformativeExperiences = () => {
           <h2 className="text-3xl md:text-4xl font-oswald font-light mb-6 text-neutral-700">
             Momentos que transforman
           </h2>
-          <p className="text-lg md:text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-foreground max-w-3xl mx-auto">
             Experiencias diseñadas para crear conexiones profundas, impulsar la innovación 
             y celebrar el éxito de manera auténtica
           </p>
@@ -83,7 +83,7 @@ const TransformativeExperiences = () => {
                     </div>
                   </div>
                   
-                  <p className="text-lg md:text-xl text-neutral-700 leading-relaxed">
+                  <p className="text-xl text-foreground leading-relaxed">
                     {experience.description}
                   </p>
                 </div>
