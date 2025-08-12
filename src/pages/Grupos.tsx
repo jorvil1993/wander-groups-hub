@@ -10,7 +10,7 @@ import { Users, Target, Lightbulb, Heart, Phone, Mail, MessageCircle } from "luc
 // Import team images
 import teamBuildingForest from "@/assets/team-building-forest.jpg";
 import teamProductivityForest from "@/assets/team-productivity-forest-outdoor.jpg";
-import teamInnovationForest from "@/assets/team-innovation-forest.jpg";
+import teamInnovationForest from "@/assets/team-innovation-forest-casual.jpg";
 import teamWellnessForest from "@/assets/team-wellness-forest.jpg";
 import teamCampfireForest from "@/assets/team-campfire-forest.jpg";
 
