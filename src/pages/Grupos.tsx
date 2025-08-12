@@ -196,7 +196,7 @@ const Grupos = () => {
       {/* Transformative Experiences Section */}
       <TransformativeExperiences />
 
-      <section className="py-16 bg-background border-t border-b border-neutral-200">{/* Call to Action Section */}
+      <section className="py-16 bg-white border-t border-b border-neutral-200">{/* Call to Action Section */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-oswald font-light mb-6 text-neutral-700">
             ¿Listo para transformar a tu equipo?
@@ -252,7 +252,7 @@ const Grupos = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-white">{/* Locations Section */}
+      <section className="py-20 bg-muted/30">{/* Locations Section */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-oswald font-light mb-6 text-neutral-700">
