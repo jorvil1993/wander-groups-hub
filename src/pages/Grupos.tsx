@@ -196,7 +196,7 @@ const Grupos = () => {
       {/* Call to Action Section */}
       <section className="py-16 bg-white border-t border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-oswald font-bold mb-6 text-forest uppercase tracking-wide">
+          <h2 className="text-4xl md:text-5xl font-oswald font-normal mb-6 uppercase mx-2.5" style={{ letterSpacing: '0.5px', color: '#818C70' }}>
             ¿LISTO PARA TRANSFORMAR A TU EQUIPO?
           </h2>
           <p className="text-xl md:text-2xl mb-8 text-neutral-600 max-w-2xl mx-auto leading-relaxed">
