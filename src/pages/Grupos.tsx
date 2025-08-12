@@ -2,6 +2,7 @@ import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
 import LocationCard from "@/components/LocationCard";
 import CorporatePackages from "@/components/CorporatePackages";
+import ServicesSection from "@/components/ServicesSection";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
@@ -192,6 +193,9 @@ const Grupos = () => {
           </div>
         </div>
       </section>
+
+      {/* Services Section */}
+      <ServicesSection />
 
       {/* Call to Action Section */}
       <section className="py-16 bg-white border-t border-b border-neutral-200">
