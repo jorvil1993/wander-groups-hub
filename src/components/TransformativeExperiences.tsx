@@ -74,7 +74,7 @@ const TransformativeExperiences = () => {
                 <div className={`lg:col-span-5 space-y-8 ${!isEven ? 'lg:col-start-8' : ''}`}>
                   <div className="space-y-4">
                     <div>
-                      <h3 className="text-3xl md:text-4xl font-light mb-2 text-neutral-800">
+                      <h3 className="text-2xl md:text-3xl font-light mb-2 text-neutral-800">
                         {experience.title}
                       </h3>
                       <p className="text-sm md:text-base font-semibold text-neutral-500 tracking-wider uppercase">
