@@ -41,7 +41,7 @@ const TransformativeExperiences = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-br from-background via-muted/10 to-background relative overflow-hidden">
+    <section className="py-24 bg-muted/20 relative overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 left-10 w-32 h-32 bg-forest rounded-full blur-xl"></div>
