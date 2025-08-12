@@ -1,4 +1,4 @@
-import NavBar from "@/components/NavBar";
+
 import HeroSection from "@/components/HeroSection";
 import LocationCard from "@/components/LocationCard";
 import CorporatePackages from "@/components/CorporatePackages";
@@ -138,7 +138,6 @@ const Grupos = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <NavBar />
       <HeroSection />
       
       {/* Benefits Section */}
