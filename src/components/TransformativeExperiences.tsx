@@ -100,15 +100,6 @@ const TransformativeExperiences = () => {
                         />
                         <div className={`absolute inset-0 bg-gradient-to-t ${experience.color} opacity-20`}></div>
                       </div>
-                      
-                      {/* Floating badge */}
-                      <div className="absolute top-6 right-6">
-                        <div className={`px-4 py-2 rounded-full bg-white/90 backdrop-blur-sm shadow-lg border border-white/20`}>
-                          <span className={`text-sm font-semibold ${experience.textColor}`}>
-                            #{String(experience.id).padStart(2, '0')}
-                          </span>
-                        </div>
-                      </div>
                     </div>
                   </Card>
                 </div>
