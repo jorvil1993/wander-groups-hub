@@ -12,6 +12,7 @@ import teamBuildingForest from "@/assets/team-building-forest.jpg";
 import teamProductivityForest from "@/assets/team-productivity-forest.jpg";
 import teamInnovationForest from "@/assets/team-innovation-forest.jpg";
 import teamWellnessForest from "@/assets/team-wellness-forest.jpg";
+import teamCampfireForest from "@/assets/team-campfire-forest.jpg";
 
 const Grupos = () => {
   const locations = [
@@ -108,6 +109,11 @@ const Grupos = () => {
   ];
 
   const benefits = [
+    {
+      image: teamCampfireForest,
+      title: "Conexión Auténtica",
+      description: "Lejos del ruido. Cerca de lo importante. Espacios que fomentan conversaciones profundas y vínculos reales entre compañeros."
+    },
     {
       image: teamBuildingForest,
       title: "Fortalecimiento del Equipo",
