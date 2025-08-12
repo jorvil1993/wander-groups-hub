@@ -274,7 +274,7 @@ const Grupos = () => {
 
       {/* <CorporatePackages /> */}
 
-      <section className="py-20 bg-muted/20">{/* Contact Section */}
+      <section className="py-20 bg-white">{/* Contact Section */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-oswald font-light mb-6 text-neutral-700">
             ¿Listo para planificar tu retiro corporativo?
