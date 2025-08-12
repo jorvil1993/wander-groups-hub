@@ -14,36 +14,6 @@ const NavBar = () => {
             />
           </div>
 
-          {/* Navigation Links */}
-          <div className="hidden lg:flex items-center space-x-8">
-            <a href="#" className="text-white hover:text-white/80 transition-colors font-oswald font-normal text-sm uppercase tracking-wide">
-              DESTINOS
-            </a>
-            <a href="#" className="text-white hover:text-white/80 transition-colors font-oswald font-normal text-sm uppercase tracking-wide">
-              PAQUETES
-            </a>
-            <a href="#" className="text-white hover:text-white/80 transition-colors font-oswald font-normal text-sm uppercase tracking-wide">
-              ¿CÓMO FUNCIONA?
-            </a>
-            <a href="#" className="text-white hover:text-white/80 transition-colors font-oswald font-normal text-sm uppercase tracking-wide">
-              LA EXPERIENCIA WANDER
-            </a>
-            <a href="#" className="text-white hover:text-white/80 transition-colors font-oswald font-normal text-sm uppercase tracking-wide">
-              ACTIVIDADES
-            </a>
-            <a href="#" className="text-white hover:text-white/80 transition-colors font-oswald font-normal text-sm uppercase tracking-wide">
-              BLOG
-            </a>
-            <a href="/grupos" className="text-white hover:text-white/80 transition-colors font-oswald font-normal text-sm uppercase tracking-wide border-b border-white">
-              GRUPOS
-            </a>
-            <a href="#" className="text-white hover:text-white/80 transition-colors font-oswald font-normal text-sm uppercase tracking-wide">
-              WANDER OFFICE
-            </a>
-            <a href="#" className="text-white hover:text-white/80 transition-colors font-oswald font-normal text-sm uppercase tracking-wide">
-              PRENSA
-            </a>
-          </div>
         </div>
       </div>
     </nav>
