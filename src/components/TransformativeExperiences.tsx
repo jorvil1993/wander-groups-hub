@@ -1,4 +1,3 @@
-import { Lightbulb, Heart, Users } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 // Import new generated images
@@ -10,7 +9,6 @@ const TransformativeExperiences = () => {
   const experiences = [
     {
       id: 1,
-      icon: Lightbulb,
       title: "Encuentros y retiros",
       subtitle: "CONEXIÓN AUTÉNTICA EN LA NATURALEZA",
       description: "Espacios diseñados para encuentros genuinos fuera del ambiente corporativo tradicional. Nuestros retiros facilitan conversaciones profundas y conexiones reales entre equipos, donde la naturaleza actúa como catalizador para fortalecer relaciones y generar nuevas perspectivas colaborativas.",
@@ -20,7 +18,6 @@ const TransformativeExperiences = () => {
     },
     {
       id: 2,
-      icon: Heart,
       title: "Bienestar colectivo",
       subtitle: "RECONECTANDO CON LO ESENCIAL",
       description: "Momentos de pausa consciente que fortalecen no solo el bienestar individual, sino la cohesión del equipo. Experiencias de mindfulness y relajación que crean vínculos profundos y duraderos entre compañeros, generando un ambiente laboral más empático y productivo.",
@@ -30,7 +27,6 @@ const TransformativeExperiences = () => {
     },
     {
       id: 3,
-      icon: Users,
       title: "Celebraciones auténticas",
       subtitle: "ÉXITOS QUE SE SIENTEN EN EL ALMA",
       description: "Cada logro merece ser celebrado de manera memorable. Creamos experiencias únicas donde los triunfos del equipo se viven intensamente, fortaleciendo la cultura organizacional y generando recuerdos que motivarán a tu equipo mucho después del retiro.",
@@ -65,7 +61,6 @@ const TransformativeExperiences = () => {
         {/* Experiences Grid */}
         <div className="space-y-24">
           {experiences.map((experience, index) => {
-            const IconComponent = experience.icon;
             const isEven = index % 2 === 0;
             
             return (
@@ -78,10 +73,6 @@ const TransformativeExperiences = () => {
                 {/* Content */}
                 <div className={`lg:col-span-5 space-y-8 ${!isEven ? 'lg:col-start-8' : ''}`}>
                   <div className="space-y-4">
-                    <div className={`inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br ${experience.color} shadow-lg`}>
-                      <IconComponent className={`h-8 w-8 ${experience.textColor}`} />
-                    </div>
-                    
                     <div>
                       <h3 className="text-3xl md:text-4xl font-light mb-2 text-neutral-800">
                         {experience.title}
