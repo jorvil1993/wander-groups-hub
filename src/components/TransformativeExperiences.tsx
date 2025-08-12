@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 
 // Import new generated images
 import teamCasualRetreatForest from "@/assets/team-casual-retreat-forest.jpg";
-import teamMindfulnessRiver from "@/assets/team-mindfulness-river.jpg";
+import teamGroupTravelNature from "@/assets/team-group-travel-nature.jpg";
 import teamCelebrationCampfire from "@/assets/team-celebration-campfire.jpg";
 
 const TransformativeExperiences = () => {
@@ -18,10 +18,10 @@ const TransformativeExperiences = () => {
     },
     {
       id: 2,
-      title: "Bienestar colectivo",
-      subtitle: "RECONECTANDO CON LO ESENCIAL",
-      description: "Momentos de pausa consciente que fortalecen no solo el bienestar individual, sino la cohesión del equipo. Experiencias de mindfulness y relajación que crean vínculos profundos y duraderos entre compañeros, generando un ambiente laboral más empático y productivo.",
-      image: teamMindfulnessRiver,
+      title: "Viaje en grupo",
+      subtitle: "AVENTURAS QUE UNEN EQUIPOS",
+      description: "Experiencias de viaje diseñadas para fortalecer vínculos a través de aventuras compartidas. Nuestros viajes grupales combinan exploración, desafíos colaborativos y momentos de descubrimiento que transforman colegas en verdaderos compañeros de equipo, creando recuerdos inolvidables fuera del entorno laboral.",
+      image: teamGroupTravelNature,
       color: "from-green-500/20 to-teal-500/20",
       textColor: "text-green-600"
     },
