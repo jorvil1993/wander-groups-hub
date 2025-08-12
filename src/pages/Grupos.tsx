@@ -208,10 +208,10 @@ const Grupos = () => {
               href="https://wa.me/5215533919316?text=Hola,%20quiero%20más%20información%20de%20los%20paquetes%20corporativos%20de%20Wander"
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-orange hover:bg-orange/90 text-white transition-all duration-300 font-oswald font-bold text-lg px-12 py-4 rounded-full shadow-xl hover:shadow-orange/30 transform hover:scale-105 hover:-translate-y-1 flex items-center gap-3"
+              className="group bg-orange hover:bg-orange/90 text-white transition-all duration-300 font-oswald font-bold text-base px-8 py-3 rounded-md shadow-lg hover:shadow-orange/30 transform hover:scale-105 flex items-center gap-3"
             >
               <svg 
-                className="h-6 w-6 group-hover:animate-pulse" 
+                className="h-5 w-5 group-hover:animate-pulse" 
                 fill="currentColor" 
                 viewBox="0 0 24 24"
               >
@@ -321,8 +321,8 @@ const Grupos = () => {
 
           <div className="flex justify-center">
             <Button 
-              size="lg" 
-              className="bg-orange hover:bg-orange/90 text-orange-foreground font-semibold px-16 py-6 text-xl h-16"
+              size="default" 
+              className="bg-orange hover:bg-orange/90 text-orange-foreground font-semibold px-8 py-3 text-base h-12 rounded-md"
               onClick={() => window.open('https://calendly.com/gerardo-wandercabins/30min', '_blank')}
             >
               SOLICITAR PROPUESTA PERSONALIZADA

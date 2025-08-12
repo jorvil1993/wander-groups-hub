@@ -25,8 +25,8 @@ const HeroSection = () => {
 
         <div className="flex justify-center mb-12">
           <Button 
-            size="lg" 
-            className="bg-orange hover:bg-orange/90 text-orange-foreground font-semibold px-16 py-6 text-xl h-16"
+            size="default" 
+            className="bg-orange hover:bg-orange/90 text-orange-foreground font-semibold px-8 py-3 text-base h-12 rounded-md"
             onClick={() => window.open('https://calendly.com/gerardo-wandercabins/30min', '_blank')}
           >
             SOLICITAR PROPUESTA PERSONALIZADA
