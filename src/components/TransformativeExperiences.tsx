@@ -2,7 +2,7 @@ import { Lightbulb, Heart, Users } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 // Import new generated images
-import teamBrainstormForest from "@/assets/team-brainstorm-forest.jpg";
+import teamCasualRetreatForest from "@/assets/team-casual-retreat-forest.jpg";
 import teamMindfulnessRiver from "@/assets/team-mindfulness-river.jpg";
 import teamCelebrationCampfire from "@/assets/team-celebration-campfire.jpg";
 
@@ -11,10 +11,10 @@ const TransformativeExperiences = () => {
     {
       id: 1,
       icon: Lightbulb,
-      title: "Innovación sin límites",
-      subtitle: "DONDE NACEN LAS GRANDES IDEAS",
-      description: "Lejos del bullicio de la oficina, en espacios que inspiran creatividad. Nuestros retiros están diseñados para desbloquear el potencial innovador de tu equipo, donde cada sesión de brainstorming se convierte en una experiencia transformadora rodeada de naturaleza.",
-      image: teamBrainstormForest,
+      title: "Encuentros y retiros",
+      subtitle: "CONEXIÓN AUTÉNTICA EN LA NATURALEZA",
+      description: "Espacios diseñados para encuentros genuinos fuera del ambiente corporativo tradicional. Nuestros retiros facilitan conversaciones profundas y conexiones reales entre equipos, donde la naturaleza actúa como catalizador para fortalecer relaciones y generar nuevas perspectivas colaborativas.",
+      image: teamCasualRetreatForest,
       color: "from-blue-500/20 to-purple-500/20",
       textColor: "text-blue-600"
     },
