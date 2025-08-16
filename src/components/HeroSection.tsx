@@ -13,8 +13,10 @@ const HeroSection = () => {
           loop
           playsInline
           preload="auto"
+          poster="/lovable-uploads/f1c44bf2-561d-4d7d-9861-d5052c101394.png"
+          crossOrigin="anonymous"
         >
-          <source src="https://drive.google.com/uc?id=1DnXJNHOilliZM-sviEEbTDrTI8PWxvNa" type="video/mp4" />
+          <source src="https://drive.google.com/uc?export=download&id=1DnXJNHOilliZM-sviEEbTDrTI8PWxvNa" type="video/mp4" />
         </video>
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/40" />
