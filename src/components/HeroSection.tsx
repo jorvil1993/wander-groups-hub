@@ -6,14 +6,16 @@ const HeroSection = () => {
     <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0">
-        <iframe
-          className="absolute top-1/2 left-1/2 w-[177.77777778vh] h-[56.25vw] min-h-full min-w-full transform -translate-x-1/2 -translate-y-1/2"
-          src="https://www.youtube.com/embed/RQt72nJLdzs?autoplay=1&mute=1&loop=1&playlist=RQt72nJLdzs&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1"
-          title="Background Video"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          allowFullScreen
-        />
+        <video
+          className="absolute top-1/2 left-1/2 w-full h-full object-cover transform -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+        >
+          <source src="https://drive.google.com/uc?id=1DnXJNHOilliZM-sviEEbTDrTI8PWxvNa" type="video/mp4" />
+        </video>
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/40" />
       </div>
