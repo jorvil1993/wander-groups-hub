@@ -6,22 +6,14 @@ const HeroSection = () => {
     <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0">
-        <video
-          className="absolute top-1/2 left-1/2 w-full h-full object-cover transform -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          poster="/lovable-uploads/f1c44bf2-561d-4d7d-9861-d5052c101394.png"
-          onError={(e) => {
-            console.error('Video failed to load:', e);
-            e.currentTarget.style.display = 'none';
-          }}
-        >
-          <source src="https://cdn-cf-east.streamable.com/video/mp4/y68mlw.mp4" type="video/mp4" />
-          <source src="https://streamable.com/y68mlw/mp4" type="video/mp4" />
-        </video>
+        <iframe
+          className="absolute top-1/2 left-1/2 w-full h-full object-cover transform -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full pointer-events-none"
+          src="https://streamable.com/e/y68mlw?autoplay=1&muted=1&loop=1&nocontrols=1"
+          title="Wander banner video"
+          allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+          allowFullScreen
+          loading="lazy"
+        ></iframe>
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/40" />
       </div>
