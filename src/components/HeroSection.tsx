@@ -3,14 +3,23 @@ import { Building2, Users, Calendar, MapPin } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/lovable-uploads/f1c44bf2-561d-4d7d-9861-d5052c101394.png')"
-        }}
-      />
+    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+      {/* Background Video */}
+      <div className="absolute inset-0">
+        <video
+          className="absolute top-1/2 left-1/2 w-full h-full object-cover transform -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          poster="/lovable-uploads/f1c44bf2-561d-4d7d-9861-d5052c101394.png"
+        >
+          <source src="https://cdn-cf-east.streamable.com/video/mp4/y68mlw.mp4" type="video/mp4" />
+        </video>
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/40" />
+      </div>
       
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
