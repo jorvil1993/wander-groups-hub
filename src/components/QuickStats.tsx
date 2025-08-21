@@ -2,7 +2,7 @@ import { Building2, Users, Calendar, MapPin } from "lucide-react";
 
 const QuickStats = () => {
   return (
-    <section className="py-12 bg-gradient-to-b from-black/5 to-white">
+    <section className="py-6 bg-gradient-to-b from-black/5 to-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
           <div className="text-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
