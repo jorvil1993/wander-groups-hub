@@ -1,38 +1,38 @@
 import { Card } from "@/components/ui/card";
 
-// Import new generated images
-import teamCasualRetreatForest from "@/assets/team-casual-retreat-forest.jpg";
-import teamGroupTravelNature from "@/assets/team-group-travel-nature.jpg";
+// Import real images for the three pillars
+import teamWellnessForest from "@/assets/team-wellness-forest.jpg";
 import teamCelebrationCampfire from "@/assets/team-celebration-campfire.jpg";
+import teamBuildingForest from "@/assets/team-building-forest.jpg";
 
 const TransformativeExperiences = () => {
   const experiences = [
     {
       id: 1,
-      title: "Encuentros y retiros",
-      subtitle: "CONEXIÓN AUTÉNTICA EN LA NATURALEZA",
-      description: "Espacios diseñados para encuentros genuinos fuera del ambiente corporativo tradicional. Nuestros retiros facilitan conversaciones profundas y conexiones reales entre equipos, donde la naturaleza actúa como catalizador para fortalecer relaciones y generar nuevas perspectivas colaborativas.",
-      image: teamCasualRetreatForest,
-      color: "from-blue-500/20 to-purple-500/20",
-      textColor: "text-blue-600"
-    },
-    {
-      id: 2,
-      title: "Viaje en grupo",
-      subtitle: "AVENTURAS QUE UNEN EQUIPOS",
-      description: "Experiencias de viaje diseñadas para fortalecer vínculos a través de aventuras compartidas. Nuestros viajes grupales combinan exploración, desafíos colaborativos y momentos de descubrimiento que transforman colegas en verdaderos compañeros de equipo, creando recuerdos inolvidables fuera del entorno laboral.",
-      image: teamGroupTravelNature,
+      title: "Wellness",
+      subtitle: "BIENESTAR INTEGRAL EN LA NATURALEZA",
+      description: "Experimenta la transformación a través de yoga al aire libre, caminatas revitalizantes, ejercicios en contacto con la naturaleza y sesiones de meditación. Nuestros programas de wellness están diseñados para renovar cuerpo, mente y espíritu en el entorno perfecto de nuestras cabañas.",
+      image: teamWellnessForest,
       color: "from-green-500/20 to-teal-500/20",
       textColor: "text-green-600"
     },
     {
-      id: 3,
-      title: "Celebraciones auténticas",
-      subtitle: "ÉXITOS QUE SE SIENTEN EN EL ALMA",
-      description: "Cada logro merece ser celebrado de manera memorable. Creamos experiencias únicas donde los triunfos del equipo se viven intensamente, fortaleciendo la cultura organizacional y generando recuerdos que motivarán a tu equipo mucho después del retiro.",
+      id: 2,
+      title: "Eventos Personales",
+      subtitle: "CELEBRACIONES MEMORABLES",
+      description: "Convierte tus momentos especiales en experiencias inolvidables. Desde fiestas íntimas hasta celebraciones de cumpleaños únicas, creamos el ambiente perfecto para tus eventos personales rodeados de la magia de la naturaleza y la comodidad de nuestras instalaciones.",
       image: teamCelebrationCampfire,
       color: "from-orange-500/20 to-red-500/20",
       textColor: "text-orange-600"
+    },
+    {
+      id: 3,
+      title: "Eventos Corporativos",
+      subtitle: "POTENCIA TU EQUIPO DE TRABAJO",
+      description: "Retiros corporativos diseñados para fortalecer la cohesión del equipo, impulsar la productividad y fomentar la innovación. Espacios inspiradores que transforman las dinámicas laborales a través de experiencias compartidas en un entorno natural excepcional.",
+      image: teamBuildingForest,
+      color: "from-blue-500/20 to-purple-500/20",
+      textColor: "text-blue-600"
     }
   ];
 
