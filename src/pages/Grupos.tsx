@@ -1,5 +1,6 @@
 import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
+import QuickStats from "@/components/QuickStats";
 import LocationCard from "@/components/LocationCard";
 import CorporatePackages from "@/components/CorporatePackages";
 import TransformativeExperiences from "@/components/TransformativeExperiences";
@@ -141,6 +142,7 @@ const Grupos = () => {
     <div className="min-h-screen bg-background">
       <NavBar />
       <HeroSection />
+      <QuickStats />
       
       <section className="py-20 bg-white">{/* Benefits Section */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
