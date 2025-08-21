@@ -1,9 +1,9 @@
 import { Card } from "@/components/ui/card";
 
-// Import real images for the three pillars
-import teamWellnessForest from "@/assets/team-wellness-forest.jpg";
+// Import real images for the three pillars (avoiding duplicates with carousel)
+import teamMindfulnessRiver from "@/assets/team-mindfulness-river.jpg";
 import teamCelebrationCampfire from "@/assets/team-celebration-campfire.jpg";
-import teamBuildingForest from "@/assets/team-building-forest.jpg";
+import teamBrainstormForest from "@/assets/team-brainstorm-forest.jpg";
 
 const TransformativeExperiences = () => {
   const experiences = [
@@ -12,7 +12,7 @@ const TransformativeExperiences = () => {
       title: "Wellness",
       subtitle: "BIENESTAR INTEGRAL EN LA NATURALEZA",
       description: "Experimenta la transformación a través de yoga al aire libre, caminatas revitalizantes, ejercicios en contacto con la naturaleza y sesiones de meditación. Nuestros programas de wellness están diseñados para renovar cuerpo, mente y espíritu en el entorno perfecto de nuestras cabañas.",
-      image: teamWellnessForest,
+      image: teamMindfulnessRiver,
       color: "from-green-500/20 to-teal-500/20",
       textColor: "text-green-600"
     },
@@ -30,7 +30,7 @@ const TransformativeExperiences = () => {
       title: "Eventos Corporativos",
       subtitle: "POTENCIA TU EQUIPO DE TRABAJO",
       description: "Retiros corporativos diseñados para fortalecer la cohesión del equipo, impulsar la productividad y fomentar la innovación. Espacios inspiradores que transforman las dinámicas laborales a través de experiencias compartidas en un entorno natural excepcional.",
-      image: teamBuildingForest,
+      image: teamBrainstormForest,
       color: "from-blue-500/20 to-purple-500/20",
       textColor: "text-blue-600"
     }
