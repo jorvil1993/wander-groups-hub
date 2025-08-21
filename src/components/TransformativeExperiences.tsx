@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 // Import real images for the three pillars (avoiding duplicates with carousel)
 import teamMindfulnessRiver from "@/assets/team-mindfulness-river.jpg";
 import teamCelebrationCampfire from "@/assets/team-celebration-campfire.jpg";
-import teamInnovationForestCasual from "@/assets/team-innovation-forest-casual.jpg";
+import teamProductivityForest from "@/assets/team-productivity-forest.jpg";
 
 const TransformativeExperiences = () => {
   const experiences = [
@@ -30,7 +30,7 @@ const TransformativeExperiences = () => {
       title: "Eventos Corporativos",
       subtitle: "POTENCIA TU EQUIPO DE TRABAJO",
       description: "Retiros corporativos diseñados para fortalecer la cohesión del equipo, impulsar la productividad y fomentar la innovación. Espacios inspiradores que transforman las dinámicas laborales a través de experiencias compartidas en un entorno natural excepcional.",
-      image: teamInnovationForestCasual,
+      image: teamProductivityForest,
       color: "from-blue-500/20 to-purple-500/20",
       textColor: "text-blue-600"
     }
