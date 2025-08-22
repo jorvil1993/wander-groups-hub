@@ -209,7 +209,7 @@ const Grupos = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
-              href="https://wa.me/5215533919316?text=Hola,%20quiero%20más%20información%20de%20los%20paquetes%20corporativos%20de%20Wander"
+              href="https://form.jotform.com/242625806418863"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-orange hover:bg-orange/90 text-white transition-all duration-300 font-oswald font-bold text-sm sm:text-base px-4 sm:px-8 py-3 rounded-md shadow-lg hover:shadow-orange/30 transform hover:scale-105 flex items-center gap-2 sm:gap-3"
@@ -326,7 +326,7 @@ const Grupos = () => {
             <Button 
               size="default" 
               className="bg-orange hover:bg-orange/90 text-orange-foreground font-semibold px-8 py-3 text-base h-12 rounded-md"
-              onClick={() => window.open('https://calendly.com/gerardo-wandercabins/30min', '_blank')}
+              onClick={() => window.open('https://form.jotform.com/242625806418863', '_blank')}
             >
               SOLICITAR PROPUESTA PERSONALIZADA
             </Button>

@@ -41,7 +41,7 @@ const HeroSection = () => {
           <Button 
             size="default" 
             className="bg-orange hover:bg-orange/90 text-orange-foreground font-semibold px-4 sm:px-8 py-3 text-sm sm:text-base h-12 rounded-md"
-            onClick={() => window.open('https://calendly.com/gerardo-wandercabins/30min', '_blank')}
+            onClick={() => window.open('https://form.jotform.com/242625806418863', '_blank')}
           >
             <span className="hidden sm:inline">SOLICITAR PROPUESTA PERSONALIZADA</span>
             <span className="sm:hidden">SOLICITAR PROPUESTA</span>

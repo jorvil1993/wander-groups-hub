@@ -104,6 +104,7 @@ const CorporatePackages = () => {
               <Button 
                 className={`w-full ${pkg.popular ? 'bg-forest hover:bg-forest/90 text-forest-foreground' : ''}`}
                 variant={pkg.popular ? "default" : "outline"}
+                onClick={() => window.open('https://form.jotform.com/242625806418863', '_blank')}
               >
                 {pkg.price.includes('Cotización') ? 'Solicitar Cotización' : 'Seleccionar Paquete'}
               </Button>
