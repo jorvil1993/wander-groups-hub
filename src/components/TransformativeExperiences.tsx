@@ -2,7 +2,6 @@ import { Card } from "@/components/ui/card";
 
 // Import real images for the three pillars (avoiding duplicates with carousel)
 import teamMindfulnessRiver from "@/assets/team-mindfulness-river.jpg";
-import teamCelebrationCampfire from "@/assets/team-celebration-campfire.jpg";
 import teamCorporateCasualOutdoor from "@/assets/team-corporate-casual-outdoor.jpg";
 
 const TransformativeExperiences = () => {
@@ -21,7 +20,7 @@ const TransformativeExperiences = () => {
       title: "Eventos Personales",
       subtitle: "CELEBRACIONES MEMORABLES",
       description: "Convierte tus momentos especiales en experiencias inolvidables. Desde fiestas íntimas hasta celebraciones de cumpleaños únicas, creamos el ambiente perfecto para tus eventos personales rodeados de la magia de la naturaleza y la comodidad de nuestras instalaciones.",
-      image: teamCelebrationCampfire,
+      image: "/lovable-uploads/df354daf-2048-4432-a2c5-72db5902658b.png",
       color: "from-orange-500/20 to-red-500/20",
       textColor: "text-orange-600"
     },
