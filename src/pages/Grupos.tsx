@@ -117,7 +117,7 @@ const Grupos = () => {
       description: "Lejos del ruido. Cerca de lo importante. Espacios que fomentan conversaciones profundas y vínculos reales entre compañeros."
     },
     {
-      image: teamBuildingForest,
+      image: "/lovable-uploads/2563bb07-0267-4560-88dd-13dc17f89fda.png",
       title: "Fortalecimiento del Equipo",
       description: "Actividades diseñadas para mejorar la comunicación y cohesión del equipo en un ambiente relajado."
     },
