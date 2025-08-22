@@ -112,7 +112,7 @@ const Grupos = () => {
 
   const benefits = [
     {
-      image: teamCampfireForest,
+      image: "/lovable-uploads/725c8b75-97cb-4d30-9d03-c0d62c65cd9d.png",
       title: "Conexión Auténtica",
       description: "Lejos del ruido. Cerca de lo importante. Espacios que fomentan conversaciones profundas y vínculos reales entre compañeros."
     },
