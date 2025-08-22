@@ -151,8 +151,7 @@ const Grupos = () => {
               ¿Por qué elegir Wander para tu equipo?
             </h2>
             <p className="text-xl text-foreground max-w-3xl mx-auto">
-              Los retiros corporativos en la naturaleza han demostrado mejorar significativamente 
-              la productividad, creatividad y cohesión de los equipos de trabajo.
+              Disfrutar de la naturaleza en grupo no solo estimula la creatividad y la unión, también abre la puerta a experiencias únicas. Con un enfoque en Wellness, cada espacio está diseñado para favorecer el descanso, la desconexión y el equilibrio personal. A través de Eventos Personales, los participantes pueden vivir celebraciones íntimas y momentos que se convierten en recuerdos duraderos. Y en Eventos Corporativos, los entornos se transforman en escenarios ideales para fortalecer equipos, alinear objetivos y potenciar la productividad.
             </p>
           </div>
 
