@@ -1,7 +1,19 @@
 import { Button } from "@/components/ui/button";
 import { Building2, Users, Calendar, MapPin } from "lucide-react";
+import { useState, useEffect } from "react";
 
 const HeroSection = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Background Video */}
@@ -11,7 +23,7 @@ const HeroSection = () => {
           style={{ 
             width: '100vw', 
             height: '100vh', 
-            transform: 'scale(1.5)', 
+            transform: isMobile ? 'scale(2.5) rotate(90deg)' : 'scale(1.5)', 
             transformOrigin: 'center center',
             minWidth: '100%',
             minHeight: '100%'
