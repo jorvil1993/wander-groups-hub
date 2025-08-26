@@ -23,7 +23,7 @@ const HeroSection = () => {
           style={{ 
             width: '100vw', 
             height: '100vh', 
-            transform: isMobile ? 'scale(2.5) rotate(90deg)' : 'scale(1.5)', 
+            transform: isMobile ? 'scale(2.2)' : 'scale(1.5)', 
             transformOrigin: 'center center',
             minWidth: '100%',
             minHeight: '100%'
