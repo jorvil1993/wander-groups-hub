@@ -122,7 +122,7 @@ const Grupos = () => {
       description: "Actividades diseñadas para mejorar la comunicación y cohesión del equipo en un ambiente relajado."
     },
     {
-      image: "/lovable-uploads/70fdbf08-3522-4ede-baeb-bb12b986c85b.png",
+      image: "/lovable-uploads/ba39b383-68c5-4329-be3b-95e88288e2b2.png",
       title: "Mindfulness & Meditación",
       description: "Espacios únicos diseñados para la práctica de mindfulness y meditación, conectando con la naturaleza interior y exterior."
     },
