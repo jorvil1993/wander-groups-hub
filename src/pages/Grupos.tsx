@@ -122,6 +122,11 @@ const Grupos = () => {
       description: "Actividades diseñadas para mejorar la comunicación y cohesión del equipo en un ambiente relajado."
     },
     {
+      image: "/lovable-uploads/70fdbf08-3522-4ede-baeb-bb12b986c85b.png",
+      title: "Mindfulness & Meditación",
+      description: "Espacios únicos diseñados para la práctica de mindfulness y meditación, conectando con la naturaleza interior y exterior."
+    },
+    {
       image: teamProductivityForest,
       title: "Productividad Mejorada",
       description: "Espacios inspiradores que fomentan la creatividad y el pensamiento estratégico fuera de la oficina."
