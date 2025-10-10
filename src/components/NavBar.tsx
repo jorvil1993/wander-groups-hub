@@ -17,14 +17,6 @@ const NavBar = () => {
             </Link>
           </div>
 
-          {/* Navigation */}
-          <div className="flex items-center gap-6">
-            <Link to="/grupos">
-              <Button variant="ghost" className="text-white hover:bg-white/10">
-                Grupos
-              </Button>
-            </Link>
-          </div>
         </div>
       </div>
     </nav>
