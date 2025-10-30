@@ -4,6 +4,7 @@ import QuickStats from "@/components/QuickStats";
 import LocationCard from "@/components/LocationCard";
 import CorporatePackages from "@/components/CorporatePackages";
 import TransformativeExperiences from "@/components/TransformativeExperiences";
+import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
@@ -324,6 +325,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 };
