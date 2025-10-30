@@ -34,27 +34,27 @@ const Footer = () => {
               <ul className="listFooter__box listFooter__box--socFoot">
                 <li>
                   <a className="tap-target" href="#">
-                    <i className="fa fa-map-marker"></i>Ciudad de México
+                    <i className="fas fa-map-marker-alt"></i> Ciudad de México
                   </a>
                 </li>
                 <li>
                   <a className="tap-target" href="tel:+525592253225" target="_blank" rel="noopener noreferrer">
-                    <i className="fa fa-phone-square"></i>Llamadas: +52 55 9225 3225
+                    <i className="fas fa-phone-square"></i> Llamadas: +52 55 9225 3225
                   </a>
                 </li>
                 <li>
                   <a className="tap-target" href="https://api.whatsapp.com/send?phone=525568976165" target="_blank" rel="noopener noreferrer">
-                    <i className="fa fa-whatsapp"></i>Whatsapp: +52 55 6897 6165
+                    <i className="fab fa-whatsapp"></i> Whatsapp: +52 55 6897 6165
                   </a>
                 </li>
                 <li>
                   <a className="tap-target" href="mailto:contacto@wandercabins.mx" target="_blank" rel="noopener noreferrer">
-                    <i className="fa fa-envelope"></i>contacto@wandercabins.mx
+                    <i className="fas fa-envelope"></i> contacto@wandercabins.mx
                   </a>
                 </li>
                 <li>
                   <a className="tap-target" href="#">
-                    <i className="fa fa-arrow-circle-o-right"></i>Contáctanos
+                    <i className="fas fa-arrow-circle-right"></i> Contáctanos
                   </a>
                 </li>
               </ul>
@@ -91,22 +91,22 @@ const Footer = () => {
               <ul className="listFooter__box listFooter__box--socFoot">
                 <li>
                   <a href="#">
-                    <i className="fa fa-chevron-right"></i>Aviso de Privacidad
+                    <i className="fas fa-chevron-right"></i> Aviso de Privacidad
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i className="fa fa-chevron-right"></i>Términos y Condiciones
+                    <i className="fas fa-chevron-right"></i> Términos y Condiciones
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i className="fa fa-chevron-right"></i>Deslinde de Responsabilidad
+                    <i className="fas fa-chevron-right"></i> Deslinde de Responsabilidad
                   </a>
                 </li>
                 <li>
                   <a href="https://app.air.inc/a/boJQiMwHm" target="_blank" rel="noopener noreferrer">
-                    <i className="fa fa-chevron-right"></i>Prensa
+                    <i className="fas fa-chevron-right"></i> Prensa
                   </a>
                 </li>
               </ul>
@@ -131,7 +131,7 @@ const Footer = () => {
                       lineHeight: '40px'
                     }}
                   >
-                    <i className="fa fa-facebook" style={{ color: '#fff' }}></i>
+                    <i className="fab fa-facebook-f" style={{ color: '#fff' }}></i>
                   </a>
                 </li>
                 <li>
@@ -151,7 +151,7 @@ const Footer = () => {
                       lineHeight: '40px'
                     }}
                   >
-                    <i className="fa fa-instagram" style={{ color: '#fff' }}></i>
+                    <i className="fab fa-instagram" style={{ color: '#fff' }}></i>
                   </a>
                 </li>
                 <li>
@@ -170,7 +170,7 @@ const Footer = () => {
                       lineHeight: '40px'
                     }}
                   >
-                    <i className="fa fa-whatsapp" style={{ color: '#fff' }}></i>
+                    <i className="fab fa-whatsapp" style={{ color: '#fff' }}></i>
                   </a>
                 </li>
               </ul>
