@@ -6,31 +6,6 @@
 All colors MUST be HSL.
 */
 
-/* Oswald Font */
-@font-face {
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 200;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs13FvgUE.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs169vgUE.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUE.ttf) format('truetype');
-}
-
 @layer base {
   :root {
     --background: 47 12% 96%;
@@ -153,9 +128,5 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-oswald;
   }
 }
