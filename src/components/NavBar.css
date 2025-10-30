@@ -568,38 +568,8 @@
   transform: rotate(0deg);
 }
 
-.mobile-menu-close-btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1001;
-  transition: all 0.3s ease;
-}
-
-.mobile-menu-close-btn span {
-  color: #ffffff;
-  font-size: 24px;
-  line-height: 1;
-}
-
-.mobile-menu-close-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: #ffffff;
-  transform: rotate(90deg);
-}
-
 @media (min-width: 992px) {
-  .menu-mobile-btn,
-  .mobile-menu-close-btn {
+  .menu-mobile-btn {
     display: none;
   }
 }

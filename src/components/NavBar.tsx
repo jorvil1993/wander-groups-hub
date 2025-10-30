@@ -93,16 +93,6 @@ const NavBar = () => {
         className="cont-menu-mobile" 
         data-menu-expand={menuExpanded}
       >
-        {/* Close Button */}
-        <button
-          type="button"
-          className="mobile-menu-close-btn"
-          onClick={toggleMenu}
-          aria-label="Cerrar menú"
-        >
-          <span>✕</span>
-        </button>
-        
         <div id="contListMenu" className="mnuContMob">
           <ul>
             {menuItems.map((item, index) => (
