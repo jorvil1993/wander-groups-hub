@@ -17,16 +17,16 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Video */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
         <iframe
-          className="absolute inset-0 w-full pointer-events-none"
+          className="absolute inset-0 w-full h-full pointer-events-none"
           style={{
             width: "100vw",
-            height: "100%",
+            height: "100vh",
             transform: isMobile ? "scale(4.5)" : "scale(1.7)",
             transformOrigin: "center center",
             minWidth: "100%",
-            minHeight: "100%",
+            minHeight: "100vh",
             objectFit: "cover",
           }}
           src="https://streamable.com/e/y68mlw?autoplay=1&muted=1&loop=1&nocontrols=1"
