@@ -10,12 +10,10 @@ const NavBar = () => {
   };
 
   const menuItems = [
-    { label: "Inicio", href: "/" },
     { label: "Beneficios", href: "#beneficios" },
     { label: "Experiencias", href: "#experiencias" },
     { label: "Ubicaciones", href: "#ubicaciones" },
     { label: "Contacto", href: "#contacto" },
-    { label: "Prensa", href: "https://app.air.inc/a/boJQiMwHm", external: true },
   ];
 
   return (
@@ -44,23 +42,12 @@ const NavBar = () => {
                   <ul id="md" className="flex items-center justify-center gap-8">
                     {menuItems.map((item, index) => (
                       <li key={index}>
-                        {item.external ? (
-                          <a 
-                            className="menuIemHover text-white hover:text-gray-200 transition-colors" 
-                            href={item.href}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {item.label}
-                          </a>
-                        ) : (
-                          <a 
-                            className="menuIemHover text-white hover:text-gray-200 transition-colors" 
-                            href={item.href}
-                          >
-                            {item.label}
-                          </a>
-                        )}
+                        <a 
+                          className="menuIemHover text-white hover:text-gray-200 transition-colors" 
+                          href={item.href}
+                        >
+                          {item.label}
+                        </a>
                       </li>
                     ))}
                   </ul>
@@ -97,23 +84,12 @@ const NavBar = () => {
           <ul>
             {menuItems.map((item, index) => (
               <li key={index}>
-                {item.external ? (
-                  <a 
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={toggleMenu}
-                  >
-                    {item.label}
-                  </a>
-                ) : (
-                  <a 
-                    href={item.href}
-                    onClick={toggleMenu}
-                  >
-                    {item.label}
-                  </a>
-                )}
+                <a 
+                  href={item.href}
+                  onClick={toggleMenu}
+                >
+                  {item.label}
+                </a>
               </li>
             ))}
           </ul>
