@@ -31,7 +31,7 @@ const NavBar = () => {
       <header 
         id="headerGeneral" 
         className={`gHeader ${isScrolled ? 'fixed' : 'absolute'} top-0 left-0 right-0 z-[1001] py-3 transition-all duration-300`}
-        style={isScrolled ? { backgroundColor: 'rgba(129, 140, 112, 0.95)' } : {}}
+        style={isScrolled ? { backgroundColor: 'rgb(129, 140, 112)' } : {}}
       >
         <div className="container max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between">
