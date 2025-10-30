@@ -15,7 +15,7 @@ const HeroSection = () => {
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0">
         <iframe
