@@ -90,17 +90,17 @@ const Footer = () => {
             <div className="listFooter">
               <ul className="listFooter__box listFooter__box--socFoot">
                 <li>
-                  <a href="#">
+                  <a href="https://wandercabins.mx/aviso-de-privacidad" target="_blank" rel="noopener noreferrer">
                     <i className="fas fa-chevron-right"></i> Aviso de Privacidad
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://wandercabins.mx/terminos-y-condiciones" target="_blank" rel="noopener noreferrer">
                     <i className="fas fa-chevron-right"></i> Términos y Condiciones
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://wandercabins.mx/deslinde-de-responsabilidad" target="_blank" rel="noopener noreferrer">
                     <i className="fas fa-chevron-right"></i> Deslinde de Responsabilidad
                   </a>
                 </li>
