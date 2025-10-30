@@ -10,11 +10,11 @@ const NavBar = () => {
   };
 
   const menuItems = [
-    { label: "Paquetes", href: "/packs" },
-    { label: "¿Cómo funciona?", href: "#cabanas" },
-    { label: "La experiencia Wander", href: "#experiencia" },
-    { label: "Actividades", href: "#actividades" },
-    { label: "Blog", href: "/blog" },
+    { label: "Inicio", href: "/" },
+    { label: "Beneficios", href: "#beneficios" },
+    { label: "Experiencias", href: "#experiencias" },
+    { label: "Ubicaciones", href: "#ubicaciones" },
+    { label: "Contacto", href: "#contacto" },
     { label: "Prensa", href: "https://app.air.inc/a/boJQiMwHm", external: true },
   ];
 

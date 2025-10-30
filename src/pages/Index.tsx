@@ -150,7 +150,7 @@ const Index = () => {
       <HeroSection />
       <QuickStats />
       
-      <section className="py-12 bg-white">{/* Benefits Section */}
+      <section id="beneficios" className="py-12 bg-white">{/* Benefits Section */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-oswald font-light mb-6 text-neutral-700">
@@ -201,7 +201,9 @@ const Index = () => {
       </section>
 
       {/* Transformative Experiences Section */}
-      <TransformativeExperiences />
+      <div id="experiencias">
+        <TransformativeExperiences />
+      </div>
 
       <section className="py-16 bg-white border-t border-b border-neutral-200">{/* Call to Action Section */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -252,7 +254,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-muted/30">{/* Locations Section */}
+      <section id="ubicaciones" className="py-20 bg-muted/30">{/* Locations Section */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-oswald font-light mb-6 text-neutral-700">
@@ -274,7 +276,7 @@ const Index = () => {
 
       {/* <CorporatePackages /> */}
 
-      <section className="py-20 bg-white">{/* Contact Section */}
+      <section id="contacto" className="py-20 bg-white">{/* Contact Section */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-oswald font-light mb-6 text-neutral-700">
             ¿Listo para planificar tu retiro corporativo?
