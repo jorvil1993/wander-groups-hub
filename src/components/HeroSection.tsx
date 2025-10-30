@@ -19,14 +19,15 @@ const HeroSection = () => {
       {/* Background Video */}
       <div className="absolute inset-0">
         <iframe
-          className="absolute inset-0 w-full h-full pointer-events-none"
+          className="absolute inset-0 w-full pointer-events-none"
           style={{ 
             width: '100vw', 
-            height: '100vh', 
+            height: '100%', 
             transform: isMobile ? 'scale(4.5)' : 'scale(1.5)', 
             transformOrigin: 'center center',
             minWidth: '100%',
-            minHeight: '100%'
+            minHeight: '100%',
+            objectFit: 'cover'
           }}
           src="https://streamable.com/e/y68mlw?autoplay=1&muted=1&loop=1&nocontrols=1"
           title="Wander banner video"
