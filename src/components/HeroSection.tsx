@@ -23,8 +23,8 @@ const HeroSection = () => {
           style={{
             top: "50%",
             left: "50%",
-            width: isMobile ? "450%" : "170%",
-            height: isMobile ? "450%" : "170%",
+            width: isMobile ? "500%" : "250%",
+            height: isMobile ? "500%" : "250%",
             transform: "translate(-50%, -50%)",
             minWidth: "100vw",
             minHeight: "100vh",
