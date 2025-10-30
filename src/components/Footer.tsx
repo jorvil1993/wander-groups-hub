@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <div className="listFooter">
               <div className="title_Footer">Newsletter</div>
               <div className="listFooter__newsletter">
@@ -84,7 +84,7 @@ const Footer = () => {
                 </form>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div>
             <div className="listFooter">
