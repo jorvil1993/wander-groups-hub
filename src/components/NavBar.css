@@ -502,6 +502,11 @@
   transition: opacity 0.18s ease-in-out;
 }
 
+.menu-mobile-btn svg {
+  justify-self: center;
+  margin: auto;
+}
+
 .menu-mobile-btn:after,
 .menu-mobile-btn:before {
   content: "";
