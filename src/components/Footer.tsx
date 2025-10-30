@@ -38,13 +38,13 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="tap-target" href="tel:+525512345678" target="_blank" rel="noopener noreferrer">
-                    <i className="fas fa-phone-square"></i> Llamadas: +52 55 1234 5678
+                  <a className="tap-target" href="tel:+525592253225" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-phone-square"></i> Llamadas: +52 55 9225 3225
                   </a>
                 </li>
                 <li>
-                  <a className="tap-target" href="https://api.whatsapp.com/send?phone=525512345678" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-whatsapp"></i> Whatsapp: +52 55 1234 5678
+                  <a className="tap-target" href="https://api.whatsapp.com/send?phone=525568976165" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-whatsapp"></i> Whatsapp: +52 55 6897 6165
                   </a>
                 </li>
                 <li>
@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* <div>
+          <div>
             <div className="listFooter">
               <div className="title_Footer">Newsletter</div>
               <div className="listFooter__newsletter">
@@ -84,23 +84,23 @@ const Footer = () => {
                 </form>
               </div>
             </div>
-          </div> */}
+          </div-->
 
           <div>
             <div className="listFooter">
               <ul className="listFooter__box listFooter__box--socFoot">
                 <li>
-                  <a href="#">
+                  <a href="https://wandercabins.mx/aviso-de-privacidad">
                     <i className="fas fa-chevron-right"></i> Aviso de Privacidad
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://wandercabins.mx/terminos-y-condiciones">
                     <i className="fas fa-chevron-right"></i> Términos y Condiciones
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://wandercabins.mx/deslinde-de-responsabilidad">
                     <i className="fas fa-chevron-right"></i> Deslinde de Responsabilidad
                   </a>
                 </li>
@@ -157,7 +157,7 @@ const Footer = () => {
                 <li>
                   <a 
                     className="btnSocial btnSocial__tni--whatsapp rounded" 
-                    href="https://api.whatsapp.com/send/?phone=525512345678&text&app_absent=0" 
+                    href="https://api.whatsapp.com/send/?phone=525568976165&text&app_absent=0" 
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ 
