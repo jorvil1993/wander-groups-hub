@@ -40,6 +40,10 @@
 .read-the-docs {
   color: #888;
 }
-.media-container { height: 100%!important; width: auto!important; }
+
+.media-container {
+  height: 100% !important;
+  width: auto !important;
+}
 
 
