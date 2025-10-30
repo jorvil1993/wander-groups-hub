@@ -20,7 +20,7 @@ const NavBar = () => {
 
   return (
     <>
-      <header id="headerGeneral" className="gHeader absolute top-0 left-0 right-0 z-50 py-3">
+      <header id="headerGeneral" className="gHeader absolute top-0 left-0 right-0 z-[1001] py-3">
         <div className="container max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
