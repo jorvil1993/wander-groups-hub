@@ -16,7 +16,7 @@ const Footer = () => {
           <div>
             <div className="listFooter">
               <div className="listFooter__box listFooter__box--brand">
-                <a href="/">
+                <a href="https://wandercabins.mx/" target="_blank" rel="noopener noreferrer">
                   <img 
                     src="/lovable-uploads/8c7cbe51-e74c-48b3-8c0f-f45c4a5164a6.png" 
                     alt="Wander" 

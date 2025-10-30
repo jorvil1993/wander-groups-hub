@@ -42,14 +42,14 @@ const NavBar = () => {
             {/* Logo */}
             <div className="w-1/2 md:w-1/2 lg:w-1/12">
               <div className="logoHead">
-                <Link to="/">
+                <a href="https://wandercabins.mx/" target="_blank" rel="noopener noreferrer">
                   <img 
                     src="/lovable-uploads/8c7cbe51-e74c-48b3-8c0f-f45c4a5164a6.png" 
                     alt="Wander" 
                     className="h-10 w-auto"
                   />
                   <h1 className="site-title sr-only">Wander</h1>
-                </Link>
+                </a>
               </div>
             </div>
 
