@@ -38,13 +38,13 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="tap-target" href="tel:+525592253225" target="_blank" rel="noopener noreferrer">
-                    <i className="fas fa-phone-square"></i> Llamadas: +52 55 9225 3225
+                  <a className="tap-target" href="tel:+525512345678" target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-phone-square"></i> Llamadas: +52 55 1234 5678
                   </a>
                 </li>
                 <li>
-                  <a className="tap-target" href="https://api.whatsapp.com/send?phone=525568976165" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-whatsapp"></i> Whatsapp: +52 55 6897 6165
+                  <a className="tap-target" href="https://api.whatsapp.com/send?phone=525512345678" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-whatsapp"></i> Whatsapp: +52 55 1234 5678
                   </a>
                 </li>
                 <li>
@@ -157,7 +157,7 @@ const Footer = () => {
                 <li>
                   <a 
                     className="btnSocial btnSocial__tni--whatsapp rounded" 
-                    href="https://api.whatsapp.com/send/?phone=525568976165&text&app_absent=0" 
+                    href="https://api.whatsapp.com/send/?phone=525512345678&text&app_absent=0" 
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ 
