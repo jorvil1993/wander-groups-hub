@@ -65,34 +65,30 @@ const LocationCard = ({ title, location, image, capacity, features, description,
           ))}
         </div>
         
-        <div className="grid grid-cols-2 gap-2">
+        <div className="grid grid-cols-2 gap-1.5 sm:gap-2">
           <Button 
-            className="text-[10px] sm:text-xs leading-tight py-2 px-2 h-auto" 
+            className="text-[9px] sm:text-xs leading-tight py-1.5 px-1.5 sm:py-2 sm:px-2 h-auto whitespace-nowrap" 
             onClick={() => window.open(links.sobreNosotros, '_blank')}
           >
-            <span className="hidden sm:inline">SOBRE NOSOTROS</span>
-            <span className="sm:hidden">NOSOTROS</span>
+            NOSOTROS
           </Button>
           <Button 
-            className="text-[10px] sm:text-xs leading-tight py-2 px-2 h-auto"
+            className="text-[9px] sm:text-xs leading-tight py-1.5 px-1.5 sm:py-2 sm:px-2 h-auto whitespace-nowrap"
             onClick={() => window.open(links.nuestrasCabanas, '_blank')}
           >
-            <span className="hidden sm:inline">NUESTRAS CABAÑAS</span>
-            <span className="sm:hidden">CABAÑAS</span>
+            CABAÑAS
           </Button>
           <Button 
-            className="text-[10px] sm:text-xs leading-tight py-2 px-2 h-auto"
+            className="text-[9px] sm:text-xs leading-tight py-1.5 px-1.5 sm:py-2 sm:px-2 h-auto whitespace-nowrap"
             onClick={() => window.open(links.nuestrasExperiencias, '_blank')}
           >
-            <span className="hidden sm:inline">NUESTRAS EXPERIENCIAS</span>
-            <span className="sm:hidden">EXPERIENCIAS</span>
+            EXPERIENCIAS
           </Button>
           <Button 
-            className="text-[10px] sm:text-xs leading-tight py-2 px-2 h-auto"
+            className="text-[9px] sm:text-xs leading-tight py-1.5 px-1.5 sm:py-2 sm:px-2 h-auto whitespace-nowrap"
             onClick={() => window.open(links.nuestrosPrecios, '_blank')}
           >
-            <span className="hidden sm:inline">NUESTROS PRECIOS</span>
-            <span className="sm:hidden">PRECIOS</span>
+            PRECIOS
           </Button>
         </div>
       </div>
