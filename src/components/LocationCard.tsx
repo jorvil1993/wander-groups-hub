@@ -20,7 +20,7 @@ interface LocationCardProps {
 
 const LocationCard = ({ title, location, image, capacity, features, description, priceRange, links }: LocationCardProps) => {
   return (
-    <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300 bg-card border-border">
+    <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300 bg-card border-border w-full max-w-sm">
       <div className="relative overflow-hidden">
         <img 
           src={image} 
