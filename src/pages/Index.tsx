@@ -7,8 +7,9 @@ import TransformativeExperiences from "@/components/TransformativeExperiences";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, type CarouselApi } from "@/components/ui/carousel";
 import { Users, Target, Lightbulb, Heart, Phone, Mail, MessageCircle } from "lucide-react";
+import { useState, useEffect } from "react";
 
 // Import team images
 import teamBuildingForest from "@/assets/team-building-forest.jpg";
@@ -18,6 +19,19 @@ import teamWellnessForest from "@/assets/team-wellness-forest.jpg";
 import teamCampfireForest from "@/assets/team-campfire-forest.jpg";
 
 const Index = () => {
+  const [carouselApi, setCarouselApi] = useState<CarouselApi>();
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    if (!carouselApi) return;
+
+    setCurrent(carouselApi.selectedScrollSnap());
+
+    carouselApi.on("select", () => {
+      setCurrent(carouselApi.selectedScrollSnap());
+    });
+  }, [carouselApi]);
+
   const locations = [
     {
       title: "Valle de Bravo",
@@ -252,25 +266,37 @@ const Index = () => {
           </div>
 
           {/* Mobile Carousel */}
-          <div className="md:hidden px-4">
+          <div className="md:hidden">
             <Carousel 
+              setApi={setCarouselApi}
               opts={{
                 align: "center",
                 loop: false,
+                containScroll: "trimSnaps",
               }}
               className="relative"
             >
-              <CarouselContent className="-ml-2">
+              <CarouselContent className="-ml-4">
                 {locations.map((location, index) => (
-                  <CarouselItem key={index} className="pl-2">
-                    <div className="flex justify-center">
-                      <LocationCard {...location} />
-                    </div>
+                  <CarouselItem key={index} className="pl-4 basis-[85%]">
+                    <LocationCard {...location} />
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="left-2 h-8 w-8 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest" />
-              <CarouselNext className="right-2 h-8 w-8 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest" />
+              <div className="flex justify-center gap-2 mt-6">
+                {locations.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => carouselApi?.scrollTo(index)}
+                    className={`h-2 rounded-full transition-all ${
+                      index === current 
+                        ? "w-8 bg-forest" 
+                        : "w-2 bg-neutral-300"
+                    }`}
+                    aria-label={`Go to slide ${index + 1}`}
+                  />
+                ))}
+              </div>
             </Carousel>
           </div>
 
