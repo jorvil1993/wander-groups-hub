@@ -1,6 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Users, MapPin, Wifi, Car } from "lucide-react";
+import { useState } from "react";
 
 interface LocationCardProps {
   title: string;
@@ -19,15 +21,23 @@ interface LocationCardProps {
 }
 
 const LocationCard = ({ title, location, image, capacity, features, description, priceRange, links }: LocationCardProps) => {
+  const [isImageOpen, setIsImageOpen] = useState(false);
+
   return (
-    <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300 bg-card border-border w-full max-w-sm">
-      <div className="relative overflow-hidden">
-        <img 
-          src={image} 
-          alt={title}
-          className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-        />
-      </div>
+    <>
+      <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300 bg-card border-border w-full max-w-sm">
+        <div className="relative overflow-hidden cursor-pointer" onClick={() => setIsImageOpen(true)}>
+          <img 
+            src={image} 
+            alt={title}
+            className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 flex items-center justify-center">
+            <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm font-medium">
+              Click para ver imagen completa
+            </span>
+          </div>
+        </div>
       
       <div className="p-6">
         <div className="flex items-center gap-2 text-muted-foreground mb-2">
@@ -83,6 +93,19 @@ const LocationCard = ({ title, location, image, capacity, features, description,
         </div>
       </div>
     </Card>
+
+    <Dialog open={isImageOpen} onOpenChange={setIsImageOpen}>
+      <DialogContent className="max-w-7xl w-full p-0 bg-transparent border-0">
+        <div className="relative w-full h-[90vh] flex items-center justify-center">
+          <img 
+            src={image} 
+            alt={title}
+            className="max-w-full max-h-full object-contain rounded-lg"
+          />
+        </div>
+      </DialogContent>
+    </Dialog>
+    </>
   );
 };
 
