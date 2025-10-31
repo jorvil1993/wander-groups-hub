@@ -318,9 +318,11 @@ const Index = () => {
           </div>
 
           {/* Desktop Grid */}
-          <div className="hidden md:flex flex-wrap justify-center gap-8">
+          <div className="hidden md:flex flex-wrap justify-center gap-8 items-stretch">
             {locations.map((location, index) => (
-              <LocationCard key={index} {...location} />
+              <div key={index} className="w-full max-w-sm">
+                <LocationCard {...location} />
+              </div>
             ))}
           </div>
         </div>
