@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
-import { Users, MapPin, Wifi, Car } from "lucide-react";
+import { Users, MapPin, Wifi, Car, X } from "lucide-react";
 import { useState } from "react";
 
 interface LocationCardProps {
@@ -96,6 +96,12 @@ const LocationCard = ({ title, location, image, capacity, features, description,
 
     <Dialog open={isImageOpen} onOpenChange={setIsImageOpen}>
       <DialogContent className="max-w-7xl w-full p-0 bg-transparent border-0">
+        <button
+          onClick={() => setIsImageOpen(false)}
+          className="absolute top-4 right-4 z-50 rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition-colors"
+        >
+          <X className="h-6 w-6" />
+        </button>
         <div className="relative w-full h-[90vh] flex items-center justify-center">
           <img 
             src={image} 
