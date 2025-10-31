@@ -95,10 +95,10 @@ const LocationCard = ({ title, location, image, capacity, features, description,
     </Card>
 
     <Dialog open={isImageOpen} onOpenChange={setIsImageOpen}>
-      <DialogContent className="max-w-7xl w-full p-0 bg-transparent border-0 z-[100]">
+      <DialogContent className="max-w-7xl w-full p-0 bg-transparent border-0">
         <button
           onClick={() => setIsImageOpen(false)}
-          className="absolute top-4 right-4 z-[110] rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition-colors"
+          className="absolute top-4 right-4 z-10 rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition-colors"
         >
           <X className="h-6 w-6" />
         </button>
