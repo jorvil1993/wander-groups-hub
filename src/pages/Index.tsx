@@ -251,7 +251,31 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-8">
+          {/* Mobile Carousel */}
+          <div className="md:hidden px-4">
+            <Carousel 
+              opts={{
+                align: "center",
+                loop: false,
+              }}
+              className="relative"
+            >
+              <CarouselContent className="-ml-2">
+                {locations.map((location, index) => (
+                  <CarouselItem key={index} className="pl-2">
+                    <div className="flex justify-center">
+                      <LocationCard {...location} />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="left-2 h-8 w-8 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest" />
+              <CarouselNext className="right-2 h-8 w-8 bg-white/90 hover:bg-white border-2 border-forest text-forest hover:text-forest" />
+            </Carousel>
+          </div>
+
+          {/* Desktop Grid */}
+          <div className="hidden md:flex flex-wrap justify-center gap-8">
             {locations.map((location, index) => (
               <LocationCard key={index} {...location} />
             ))}
