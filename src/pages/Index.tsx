@@ -293,8 +293,10 @@ const Index = () => {
             >
               <CarouselContent className="-ml-4">
                 {locations.map((location, index) => (
-                  <CarouselItem key={index} className="pl-4 basis-[85%]">
-                    <LocationCard {...location} />
+                  <CarouselItem key={index} className="pl-4 basis-[85%] h-auto">
+                    <div className="h-full">
+                      <LocationCard {...location} />
+                    </div>
                   </CarouselItem>
                 ))}
               </CarouselContent>

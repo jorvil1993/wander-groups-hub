@@ -25,7 +25,7 @@ const LocationCard = ({ title, location, image, capacity, features, description,
 
   return (
     <>
-      <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300 bg-card border-border w-full max-w-sm">
+      <Card className="overflow-hidden group hover:shadow-xl transition-all duration-300 bg-card border-border w-full max-w-sm h-full flex flex-col">
         <div className="relative overflow-hidden cursor-pointer" onClick={() => setIsImageOpen(true)}>
           <img 
             src={image} 
@@ -39,7 +39,7 @@ const LocationCard = ({ title, location, image, capacity, features, description,
           </div>
         </div>
       
-      <div className="p-6">
+      <div className="p-6 flex flex-col flex-1">
         <div className="flex items-center gap-2 text-muted-foreground mb-2">
           <MapPin className="h-4 w-4" />
           <span className="text-sm">{location}</span>
@@ -47,7 +47,7 @@ const LocationCard = ({ title, location, image, capacity, features, description,
         
         <h3 className="text-xl font-bold text-primary mb-3">{title}</h3>
         
-        <p className="text-muted-foreground mb-4 leading-relaxed">{description}</p>
+        <p className="text-muted-foreground mb-4 leading-relaxed flex-1">{description}</p>
         
         <div className="flex items-center gap-2 mb-4">
           <Users className="h-4 w-4 text-earth" />
@@ -67,28 +67,32 @@ const LocationCard = ({ title, location, image, capacity, features, description,
         
         <div className="grid grid-cols-2 gap-2">
           <Button 
-            className="text-sm" 
+            className="text-[10px] sm:text-xs leading-tight py-2 px-2 h-auto" 
             onClick={() => window.open(links.sobreNosotros, '_blank')}
           >
-            SOBRE NOSOTROS
+            <span className="hidden sm:inline">SOBRE NOSOTROS</span>
+            <span className="sm:hidden">NOSOTROS</span>
           </Button>
           <Button 
-            className="text-sm"
+            className="text-[10px] sm:text-xs leading-tight py-2 px-2 h-auto"
             onClick={() => window.open(links.nuestrasCabanas, '_blank')}
           >
-            NUESTRAS CABAÑAS
+            <span className="hidden sm:inline">NUESTRAS CABAÑAS</span>
+            <span className="sm:hidden">CABAÑAS</span>
           </Button>
           <Button 
-            className="text-sm"
+            className="text-[10px] sm:text-xs leading-tight py-2 px-2 h-auto"
             onClick={() => window.open(links.nuestrasExperiencias, '_blank')}
           >
-            NUESTRAS EXPERIENCIAS
+            <span className="hidden sm:inline">NUESTRAS EXPERIENCIAS</span>
+            <span className="sm:hidden">EXPERIENCIAS</span>
           </Button>
           <Button 
-            className="text-sm"
+            className="text-[10px] sm:text-xs leading-tight py-2 px-2 h-auto"
             onClick={() => window.open(links.nuestrosPrecios, '_blank')}
           >
-            NUESTROS PRECIOS
+            <span className="hidden sm:inline">NUESTROS PRECIOS</span>
+            <span className="sm:hidden">PRECIOS</span>
           </Button>
         </div>
       </div>
