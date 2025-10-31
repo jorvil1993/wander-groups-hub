@@ -30,7 +30,7 @@ const LocationCard = ({ title, location, image, capacity, features, description,
           <img 
             src={image} 
             alt={title}
-            className="w-full h-64 md:h-auto md:aspect-[9/16] object-cover group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
           />
           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 flex items-center justify-center">
             <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm font-medium">
