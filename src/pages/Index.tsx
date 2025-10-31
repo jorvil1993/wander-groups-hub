@@ -82,7 +82,7 @@ const Index = () => {
       title: "Malinalco Rojkind",
       location: "1.5 horas desde CDMX",
       image: "/lovable-uploads/c92ac0ee-edf5-4121-a90e-c2f25d3acf3c.png",
-      capacity: "2-4 personas por cabaña (8 cabañas disponibles)",
+      capacity: "2-4 personas por cabaña (14 cabañas disponibles)",
       features: ["Diseño Michel Rojkind", "A orilla del río", "Jacuzzi", "Rappel", "Rutas de mezcal"],
       description: "Creado por la mente visionaria del arquitecto Michel Rojkind, este sitio ofrece un refugio encantador que abraza la naturaleza, con cabañas ubicadas a la orilla de un imponente río en Malinalco.",
       priceRange: "Desde $1,990 p/noche",
