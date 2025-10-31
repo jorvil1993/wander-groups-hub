@@ -286,7 +286,7 @@ const Index = () => {
               setApi={setCarouselApi}
               opts={{
                 align: "center",
-                loop: false,
+                loop: true,
                 containScroll: "trimSnaps",
               }}
               className="relative"
