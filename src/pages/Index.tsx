@@ -251,7 +251,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {locations.map((location, index) => (
               <LocationCard key={index} {...location} />
             ))}
@@ -271,7 +271,7 @@ const Index = () => {
             la experiencia perfecta para tu equipo.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 justify-items-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="flex flex-col items-center">
               <Phone className="h-8 w-8 text-forest mb-3" />
               <h3 className="font-bold text-primary mb-2">Llámanos</h3>
