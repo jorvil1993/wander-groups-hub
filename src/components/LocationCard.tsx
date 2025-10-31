@@ -47,7 +47,7 @@ const LocationCard = ({ title, location, image, capacity, features, description,
         
         <h3 className="text-xl font-bold text-primary mb-3">{title}</h3>
         
-        <p className="text-muted-foreground mb-4 leading-relaxed flex-1">{description}</p>
+        <p className="text-muted-foreground mb-4 leading-relaxed flex-1 text-justify">{description}</p>
         
         <div className="flex items-center gap-2 mb-4">
           <Users className="h-4 w-4 text-earth" />
