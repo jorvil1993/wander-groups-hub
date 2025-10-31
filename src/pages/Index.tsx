@@ -32,6 +32,21 @@ const Index = () => {
     });
   }, [carouselApi]);
 
+  // Auto-play carousel
+  useEffect(() => {
+    if (!carouselApi) return;
+
+    const autoplay = setInterval(() => {
+      if (carouselApi.canScrollNext()) {
+        carouselApi.scrollNext();
+      } else {
+        carouselApi.scrollTo(0);
+      }
+    }, 4000); // Change slide every 4 seconds
+
+    return () => clearInterval(autoplay);
+  }, [carouselApi]);
+
   const locations = [
     {
       title: "Valle de Bravo",
