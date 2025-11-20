@@ -29,7 +29,7 @@ const HeroSection = () => {
             minWidth: "100vw",
             minHeight: "100vh",
           }}
-          src="https://www.youtube.com/embed/XPvm9SH8fmA?autoplay=1&mute=1&loop=1&playlist=XPvm9SH8fmA&controls=0"
+          src="https://www.youtube.com/embed/XPvm9SH8fmA?autoplay=1&mute=1&loop=1&playlist=XPvm9SH8fmA&controls=0&vq=hd1080&modestbranding=1&rel=0"
           title="Wander banner video"
           allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
           allowFullScreen
